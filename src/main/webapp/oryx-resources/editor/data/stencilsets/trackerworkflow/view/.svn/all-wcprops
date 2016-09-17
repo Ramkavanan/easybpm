@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1537/trunk/editor/data/stencilsets/trackerworkflow/view
+END
+connection.flow.svg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1537/trunk/editor/data/stencilsets/trackerworkflow/view/connection.flow.svg
+END
+connection.annotation.svg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/connection.annotation.svg
+END
+node.text.svg
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.text.svg
+END
+node.place.svg
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.place.svg
+END
+node.transition.empty.svg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.transition.empty.svg
+END
+node.transition.svg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.transition.svg
+END
+node.mark.svg
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.mark.svg
+END
+node.invariant.svg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.invariant.svg
+END
+node.precondition.svg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.precondition.svg
+END
+connection.association.unidirectional.svg
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/connection.association.unidirectional.svg
+END
+node.entryaction.svg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.entryaction.svg
+END
+node.diagram.svg
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.diagram.svg
+END
+node.exitaction.svg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.exitaction.svg
+END
+node.triggeredaction.svg
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.triggeredaction.svg
+END
+node.transition.emptyV.svg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/view/node.transition.emptyV.svg
+END

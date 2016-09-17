@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3930/trunk/editor/test/client/Core/SVG
+END
+EditPathHandlerTests.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1734/trunk/editor/test/client/Core/SVG/EditPathHandlerTests.js
+END
+SVGShapeTests.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3930/trunk/editor/test/client/Core/SVG/SVGShapeTests.js
+END
+SVGShapeTests.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3930/trunk/editor/test/client/Core/SVG/SVGShapeTests.xhtml
+END
+EditPathHandlerTests.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1734/trunk/editor/test/client/Core/SVG/EditPathHandlerTests.xhtml
+END
+SVGMarkerTests.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1750/trunk/editor/test/client/Core/SVG/SVGMarkerTests.js
+END
+SVGMarkerTests.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1750/trunk/editor/test/client/Core/SVG/SVGMarkerTests.xhtml
+END
+SVGShapeTestsMethods.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1761/trunk/editor/test/client/Core/SVG/SVGShapeTestsMethods.js
+END
+MinMaxPathHandlerTests.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1716/trunk/editor/test/client/Core/SVG/MinMaxPathHandlerTests.js
+END
+MinMaxPathHandlerTests.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1713/trunk/editor/test/client/Core/SVG/MinMaxPathHandlerTests.xhtml
+END
+PointsPathHandlerTests.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1716/trunk/editor/test/client/Core/SVG/PointsPathHandlerTests.js
+END
+PointsPathHandlerTests.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1716/trunk/editor/test/client/Core/SVG/PointsPathHandlerTests.xhtml
+END

@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2404/trunk/editor/data/stencilsets/xforms/view
+END
+node.toggle.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.toggle.svg
+END
+node.reset.svg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.reset.svg
+END
+node.setindex.svg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.setindex.svg
+END
+node.recalculate.svg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.recalculate.svg
+END
+node.secret.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.secret.svg
+END
+node.rebuild.svg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.rebuild.svg
+END
+node.help.svg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.help.svg
+END
+node.refresh.svg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.refresh.svg
+END
+node.item.svg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1507/trunk/editor/data/stencilsets/xforms/view/node.item.svg
+END
+node.dispatch.svg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.dispatch.svg
+END
+node.select1.svg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1511/trunk/editor/data/stencilsets/xforms/view/node.select1.svg
+END
+node.output.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.output.svg
+END
+node.switch.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.switch.svg
+END
+node.delete.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.delete.svg
+END
+node.hint.svg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.hint.svg
+END
+node.trigger.svg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.trigger.svg
+END
+node.form.svg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.form.svg
+END
+node.itemset.svg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1507/trunk/editor/data/stencilsets/xforms/view/node.itemset.svg
+END
+node.action.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.action.svg
+END
+node.load.svg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.load.svg
+END
+node.label.svg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.label.svg
+END
+node.select.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1507/trunk/editor/data/stencilsets/xforms/view/node.select.svg
+END
+node.upload.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.upload.svg
+END
+node.message.svg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.message.svg
+END
+node.setvalue.svg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.setvalue.svg
+END
+node.send.svg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.send.svg
+END
+node.setfocus.svg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.setfocus.svg
+END
+node.group.svg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2404/trunk/editor/data/stencilsets/xforms/view/node.group.svg
+END
+node.range.svg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1507/trunk/editor/data/stencilsets/xforms/view/node.range.svg
+END
+node.input.svg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1494/trunk/editor/data/stencilsets/xforms/view/node.input.svg
+END
+node.submit.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.submit.svg
+END
+node.insert.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.insert.svg
+END
+node.alert.svg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.alert.svg
+END
+node.case.svg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.case.svg
+END
+node.choices.svg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1507/trunk/editor/data/stencilsets/xforms/view/node.choices.svg
+END
+node.textarea.svg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.textarea.svg
+END
+node.repeat.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.repeat.svg
+END
+node.revalidate.svg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/xforms/view/node.revalidate.svg
+END

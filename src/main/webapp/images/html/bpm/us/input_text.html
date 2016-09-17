@@ -1,0 +1,88 @@
+<script>
+jQuery("#text_button").click(function () {
+	var bValid = true;
+	var _no = jQuery("#e_id").val() ;
+	if (bValid) {
+		var label = jQuery("#title").val().trim();
+		if(label != ""){
+			var name = label.toLowerCase().replace(/[" "]/g,"");
+			$('#name').val(name);
+			jQuery("#properties_error").hide();
+			saveInputPanel( _no ) ; //in rbl_base.js
+			jQuery("#propertyTab-content").hide();
+			propertiesMsgBox("Success","Text box properties updated.","success","title");
+		}else{
+			jQuery("#properties_error").show();
+			var	content = "Label should not be empty.";
+			propertiesMsgBox("Error",content,"error","title");
+		}
+	}
+});
+
+jQuery("#text_reset_button").click(function () {
+	var _id=jQuery("#e_id").val() ;
+	showControlPanel("f_" + _id, "create");
+});
+ 
+setTimeout(function(){
+	setRequriedAndReadOnly();
+},500);
+
+</script>
+<input type="hidden" name="val_liste" id="val_liste" />
+<input type="hidden" name="type_html" id="type_html" value="TEXT" /> <input type="hidden" name="e_id" id="e_id" readonly="O" class="text ui-corner-all" value="test"/>
+
+<div class="width-per-100">
+	<div id="text_row1" class="width-per-100 min-height55">
+		<div>
+			<div class="floatleft"><label for="name" class="popUpFontStyle">Name </label></div>
+			<div class="floatleft pad-R10"><input type="text" name="name" id="name" class="text ui-corner-all width140" readonly="0"/></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="title" class="popUpFontStyle">Label </label></div>
+			<div class="floatleft pad-R10"><input type="text" name="title" id="title" class="text ui-corner-all width140"/></div>
+		</div>
+		<!-- <div>
+			<div class="floatleft"><label for="mask" class="popUpFontStyle">Mask </label></div>
+			<div class="floatleft pad-R10"><select name="mask" id="mask" class="fCmb" style="width:140px;">
+  	  					<option value=""></option>
+  	  					<option value="numeric">numeric</option>
+  	  	        </select>
+  	  	    </div>
+		</div> -->
+		<div>
+			<div class="floatleft"><label for="maxlength" class="popUpFontStyle">Max Length </label></div>
+			<div><input type="text" name="maxlength" id="maxlength" class="text ui-corner-all width120" onkeyup="checkIsNumber('maxlength','Max Length')"/></div>
+		</div>
+		
+	</div>
+	<div id="text_row2" class="width-per-100 min-height55">
+		<!-- <div>
+			<div class="floatleft"><label for="size" class="popUpFontStyle">Size </label></div>
+			<div class="floatleft" style="padding-right:15px;padding-left:10px;"><input type="text" name="size" id="size" class="text ui-corner-all" style="width:150px;"/></div>
+		</div> -->
+		<div>
+			<div class="floatleft"><label for="val_defaut" class="popUpFontStyle">Value</label></div>
+			<div class="floatleft pad-R10"><input type="text" name="val_defaut" id="val_defaut" class="text ui-corner-all width140"/></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="help_text" class="popUpFontStyle">Help</label></div>
+			<div class="floatleft pad-R10"><textarea name="help_text" id="help_text" cols="30" rows="1" class="text ui-corner-all width140"/></div>
+		</div>
+		<div id="isRequired" class="displayBlock">
+			<div class="floatleft"><label class="popUpFontStyle" for="required">Required</label></div>
+			<div class="floatleft" style="padding-right:10px;"><input type="checkbox" name="required" id="required" class="radio ui-corner-all" onclick="generateReadOnly()"/></div>
+		</div>
+		<div id="readOnly" class="displayBlock">
+			<div class="floatleft"><label for="readonly" class="popUpFontStyle">Read Only</label></div>
+			<div class="floatleft"><input type="checkbox" name="readonly" id="readonly" class="radio ui-corner-all" onclick="generateRequired()"/></div>
+		</div>
+		<div>
+			<div class="floatRight mar-R20"><input type="button" id="text_reset_button" value="Reset" class="btn btn-primary clearButton searchButtonSize mar-L10 padding0 line-height0"/></div>
+			<div  class="floatRight mar-R20"><input type="button" id="text_button" value="Apply" class="btn btn-primary searchButtonSize mar-L10 padding0 line-height0"/></div>
+		</div>
+		<!-- <div><div style="float:right;margin-right:70px;margin-top:2px;"><input type="button" id="text_reset_button" value="Reset" class="btn btn-primary searchButtonSize"/></div></div> -->
+	</div>
+</div>
+	
+	

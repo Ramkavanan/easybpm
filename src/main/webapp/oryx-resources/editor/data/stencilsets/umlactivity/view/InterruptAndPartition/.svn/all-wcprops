@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/InterruptAndPartition
+END
+node.interruptableRegion.svg
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/InterruptAndPartition/node.interruptableRegion.svg
+END
+edge.interrupt.svg
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/InterruptAndPartition/edge.interrupt.svg
+END
+node.activityPartition.vertical.svg
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/InterruptAndPartition/node.activityPartition.vertical.svg
+END

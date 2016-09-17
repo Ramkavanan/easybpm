@@ -1,0 +1,82 @@
+<script>
+jQuery("#radio_button").click(function () {
+	var bValid = true;
+	var _no = jQuery("#e_id").val() ;
+	
+	if (bValid) {
+		var label = jQuery("#title").val().trim();
+		var listValue = jQuery("#val_liste").val().trim();
+		if(label != "" && listValue != ""){
+			var name = label.toLowerCase().replace(/[" "]/g,"");
+			$('#name').val(name);
+			jQuery("#properties_error").hide();
+			saveInputPanel( _no ) ; //in rbl_base.js
+			jQuery("#propertyTab-content").hide();
+			propertiesMsgBox("Success","Properties updated.","success","title");
+		}else{
+			jQuery("#properties_error").show();
+			var content = "";
+			var focusId= "title";
+			if(label == "" && listValue == ""){
+				content = "Label and List Value should not be empty.";
+				//jQuery("#properties_error").html("<span style='background-color:#FCEFA4;border-radius:5px;padding:5px;color:red;'>Label and List Value should not be empty.<span>");
+			}else if(listValue == ""){
+				content = "List Value should not be empty.";
+				focusId= "val_liste";
+				//jQuery("#properties_error").html("<span style='background-color:#FCEFA4;border-radius:5px;padding:5px;color:red;'>List Value should not be empty.<span>");
+			}else if(label == ""){
+				content = "Label should not be empty.";
+				//jQuery("#properties_error").html("<span style='background-color:#FCEFA4;border-radius:5px;padding:5px;color:red;'>Label should not be empty.<span>");
+			}
+			propertiesMsgBox("Error",content,"error",focusId);
+		}
+	}
+});
+
+jQuery("#radio_reset_button").click(function () {
+	var _id=jQuery("#e_id").val() ;
+	showControlPanel("f_" + _id, "create");
+});
+</script>
+<input type="hidden" name="mask" id="mask"/>
+<input type="hidden" name="freemask" id="freemask"/>
+<input type="hidden" name="regexp" id="regexp"/>
+<input type="hidden" name="maxlength" id="maxlength"/>
+<input type="hidden" name="type_html" id="type_html" value="RADIO" />
+<input type="hidden" name="e_id" id="e_id" readonly="O" class="text  ui-corner-all" value="test" />
+	
+<div width="100%" style="padding:10px;">
+	<div id="radio_row1" class="width-per-100 min-height55">
+		<div>
+			<div class="floatleft"><label for="name" class="popUpFontStyle">Name</label></div>
+			<div class="floatleft pad-R10"><input type="text" name="name" id="name" class="text  ui-corner-all width140" readonly="0"/></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="title" class="popUpFontStyle">Label</label></div>
+			<div class="floatleft pad-R10"><input type="text" name="title" id="title" class="text  ui-corner-all width140"/></div>
+		</div>
+		<!-- <div>
+			<div class="floatleft"><label for="size" class="popUpFontStyle">Size</label></div>
+			<div class="floatleft" style="padding-right:15px;"><input type="text" name="size" id="size" class="text  ui-corner-all" style="width:150px;"/></div>
+		</div> -->
+		<div>
+			<div class="floatleft"><label for="val_liste" class="popUpFontStyle">List Value(s)</label></div>
+			<div><textarea name="val_liste" id="val_liste" class="text  ui-corner-all width170" rows="1"></textarea></div>
+		</div>
+		<div>
+			<div class="floatRight mar-R20"><input type="button" id="radio_reset_button" value="Reset" class="btn btn-primary clearButton mar-L10 searchButtonSize padding0 line-height0"/></div>
+			<div class="floatRight mar-R20"><input type="button" id="radio_button" value="Apply" class="btn btn-primary searchButtonSize mar-L10 padding0 line-height0"/></div>
+		</div>
+	</div>
+	<div id="radio_row2" class="width-per-100 min-height55">
+		<div id="isRequired" class="displayBlock">
+			<div class="floatleft"><label for="required" class="popUpFontStyle">Required</label></div>
+			<div class="floatleft pad-R136"><input type="checkbox" name="required" id="required" class="radio  ui-corner-all" /></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="help_text" class="popUpFontStyle">Help</label></div>
+			<div class="floatleft pad-R10"><textarea  name="help_text" id="help_text" cols="50" rows="1" class="text  ui-corner-all width140"></textarea></div>
+		</div>
+	</div>
+</div>
+	

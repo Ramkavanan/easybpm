@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2463/trunk/editor/data/stencilsets/extensions/ibpmn-FH/view/extension/startevent
+END
+node.event.error.start.svg
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/2457/trunk/editor/data/stencilsets/extensions/ibpmn-FH/view/extension/startevent/node.event.error.start.svg
+END
+node.event.termination.start.svg
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/2457/trunk/editor/data/stencilsets/extensions/ibpmn-FH/view/extension/startevent/node.event.termination.start.svg
+END
+node.event.compensation.start.svg
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/2457/trunk/editor/data/stencilsets/extensions/ibpmn-FH/view/extension/startevent/node.event.compensation.start.svg
+END
+.directory
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2444/trunk/editor/data/stencilsets/extensions/ibpmn-FH/view/extension/startevent/.directory
+END
+node.event.ni.interaction.start.svg
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/2463/trunk/editor/data/stencilsets/extensions/ibpmn-FH/view/extension/startevent/node.event.ni.interaction.start.svg
+END
+node.event.ni.timer.start.svg
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/2463/trunk/editor/data/stencilsets/extensions/ibpmn-FH/view/extension/startevent/node.event.ni.timer.start.svg
+END
+node.event.ni.start.svg
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/2463/trunk/editor/data/stencilsets/extensions/ibpmn-FH/view/extension/startevent/node.event.ni.start.svg
+END

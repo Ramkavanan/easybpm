@@ -1,0 +1,73 @@
+<script>
+jQuery("#template_button").click(function () {
+	var bValid = true;
+	if (bValid) {
+		var formId = document.getElementById("template_name").value;
+		jQuery.ajax({	
+			type: 'GET',
+			async: false,
+			url : '/form/getSubFormById',
+			data: 'formId=' + formId,
+			success : function(response) {
+				var xmlString = response.subForm.xmlString;
+				var xmlStringColumnCount = xmlString.match(/f_col_/g); 
+				var xmlsource = jQuery("#xmlsource").text();
+				var xmlsourcecount = xmlsource.match(/f_col_/g);
+				for(var i=1;i<=xmlStringColumnCount.length;i++){
+					var oldColumnId = "f_col_"+i;
+					var newIndex = xmlsourcecount.length + i;
+					var newColumnId = "f_col_"+newIndex;
+					xmlString = (String(xmlString)).replace(oldColumnId,newColumnId);
+				}				
+				xmlString = xmlString.split("<extensionElements>");
+				xmlString = xmlString[1].split("</form>");						
+				xmlsource = xmlsource.split("</extensionElements>");
+				xmlsource[0] += xmlString[0];
+				xmlsource = xmlsource[0] + xmlsource[1];
+				jQuery("#xmlSource").val(xmlsource);
+				jQuery("#xmlsource").text(xmlsource);
+				load_xml();
+			}
+		});
+	}
+});
+
+var selectObj=document.getElementById("template_name");
+$(document).ready(function() {
+	jQuery.ajax({	
+		type: 'GET',
+		async: false,
+		url : '/form/getAllForms',
+		success : function(response) {
+			for(var i=0;i<response.forms.length;i++){
+				var selectOption = document.createElement("OPTION");
+				selectOption.text = response.forms[i].formName;
+				selectOption.value = response.forms[i].id;
+				selectObj.options.add(selectOption);
+			}
+		}
+	});
+});
+
+
+</script>
+<input type="hidden" name="e_action" id="e_action" size="30" maxlength="90" />
+<form>
+	<div class="width-per-100 pad-T30">
+		<div id="form_row1">
+			<div>
+				<div class="floatleft"><label for="template_name" class="popUpFontStyle">Template Name</label></div>
+				<div class="floatleft pad-R10">
+					<select name="template_Name" id="template_name" class="width170">
+					</select>
+  	  	    	</div>
+			</div>
+			<div>
+				<div class="floatRight mar-T2 mar-R70"><input type="button" id="template_reset_button" onclick="addTemplatePanel();" value="Reset" class="btn btn-primary clearButton mar-L10 searchButtonSize padding0 line-height0"/></div>
+			</div>
+			<div>
+				<div class="floatRight mar-T2 mar-R70"><input type="button" id="template_button" value="Apply" class="btn btn-primary searchButtonSize mar-L10 padding0 line-height0"/></div>
+			</div>
+		</div>
+	</div>
+</form>

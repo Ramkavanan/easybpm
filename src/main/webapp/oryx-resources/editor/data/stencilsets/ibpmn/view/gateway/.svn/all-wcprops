@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/1543/trunk/editor/data/stencilsets/ibpmn/view/gateway
+END
+node.gateway.xor.databased.svg
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1543/trunk/editor/data/stencilsets/ibpmn/view/gateway/node.gateway.xor.databased.svg
+END
+node.gateway.and.svg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/ibpmn/view/gateway/node.gateway.and.svg
+END
+node.gateway.xor.eventbased.svg
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1467/trunk/editor/data/stencilsets/ibpmn/view/gateway/node.gateway.xor.eventbased.svg
+END

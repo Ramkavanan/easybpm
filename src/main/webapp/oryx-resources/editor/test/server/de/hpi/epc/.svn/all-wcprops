@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3612/trunk/editor/test/server/de/hpi/epc
+END
+epcWithLoop.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/editor/test/server/de/hpi/epc/epcWithLoop.rdf
+END
+soundnessTestEpc.erdf
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1674/trunk/editor/test/server/de/hpi/epc/soundnessTestEpc.erdf
+END
+MarkingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3612/trunk/editor/test/server/de/hpi/epc/MarkingTest.java
+END
+AbstractEPCTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3612/trunk/editor/test/server/de/hpi/epc/AbstractEPCTest.java
+END
+simpleEPC.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/1674/trunk/editor/test/server/de/hpi/epc/simpleEPC.rdf
+END
+loanRequest.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1674/trunk/editor/test/server/de/hpi/epc/loanRequest.rdf
+END
+epcWithLoop.erdf
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/editor/test/server/de/hpi/epc/epcWithLoop.erdf
+END
+simpleEPC.erdf
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1674/trunk/editor/test/server/de/hpi/epc/simpleEPC.erdf
+END
+loanRequest.erdf
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1674/trunk/editor/test/server/de/hpi/epc/loanRequest.erdf
+END
+soundnessTestEpc.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1674/trunk/editor/test/server/de/hpi/epc/soundnessTestEpc.rdf
+END

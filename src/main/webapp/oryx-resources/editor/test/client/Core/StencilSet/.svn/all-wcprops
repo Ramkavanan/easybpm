@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/1840/trunk/editor/test/client/Core/StencilSet
+END
+ComplexPropertyItemTests.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1779/trunk/editor/test/client/Core/StencilSet/ComplexPropertyItemTests.js
+END
+ComplexPropertyItemTests.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1779/trunk/editor/test/client/Core/StencilSet/ComplexPropertyItemTests.xhtml
+END
+StencilSetsTest.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1791/trunk/editor/test/client/Core/StencilSet/StencilSetsTest.js
+END
+StencilSetTests.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1840/trunk/editor/test/client/Core/StencilSet/StencilSetTests.xhtml
+END
+StencilSetTests.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1840/trunk/editor/test/client/Core/StencilSet/StencilSetTests.js
+END
+StencilTest.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1789/trunk/editor/test/client/Core/StencilSet/StencilTest.js
+END
+StencilSetsTests.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1789/trunk/editor/test/client/Core/StencilSet/StencilSetsTests.xhtml
+END
+fixtureTestStencilSet.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1789/trunk/editor/test/client/Core/StencilSet/fixtureTestStencilSet.js
+END
+StencilTests.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1789/trunk/editor/test/client/Core/StencilSet/StencilTests.xhtml
+END
+PropertyItemTests.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1779/trunk/editor/test/client/Core/StencilSet/PropertyItemTests.xhtml
+END
+PropertyItemTests.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1779/trunk/editor/test/client/Core/StencilSet/PropertyItemTests.js
+END
+PropertyTests.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1758/trunk/editor/test/client/Core/StencilSet/PropertyTests.xhtml
+END
+PropertyTests.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1758/trunk/editor/test/client/Core/StencilSet/PropertyTests.js
+END

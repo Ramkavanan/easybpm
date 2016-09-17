@@ -1,0 +1,344 @@
+<left>
+#if(${subForm} == true)
+	<form action="#" id="${formId}" method="post" name="${formId}" style="min-height:300px;width:1142.857142857143px">
+	<div id="form_div">
+		${htmlSubForm}
+		</div>
+	</form>
+#else
+	${html}
+#end
+</left>
+<div id="attachmentDetail">
+</div >
+<div style="display:none;">
+<table id="formSubmitSection">
+ #if(${isEndScriptExist} == "true")
+        ${endScript}
+ #end
+	<tr>							
+		<td></td>							
+		<td class="pad-L10">
+		    #if($operatingFunctionForTask.isSubmit()==true || ($isStartNodeTask == true && $isCreator == true))
+		    	#set($isOperationFnSubmit = true)
+		    	#if($lastOperationPerformed == "return" || $lastOperationPerformed == "return submit")
+		    	<!-- back off functionality. when submitting the returned process, user can select organizers for any one of the previously operated tasks -->
+			    	#if($isFinalTransactor==true) 
+			    		<button type="button" name="Submit" class="btn btn-info" onClick="addAttachments();
+			    		backOffJump('${deploymentId}','${resourceName}','${processName}','${processDefinitionId}','${taskId}',
+			    		'${activityId}','forward','${processInstanceId}','true','${formId}');"> Submit </button>
+			    	#else
+			    		<button type="button" name="Submit" class="btn btn-info" onClick="addAttachments();ofSubmitForm('${formId}');"> Submit </button>
+			    	#end
+		      	#elseif($isFinalTransactor==true) 
+		    		<button type="button" name="Submit" class="btn btn-info" onClick="addAttachments();ofJointConductSubmitForm('${formId}',''); "> Submit </button>
+		    	#else
+		    		<button type="button" name="Submit" class="btn btn-info" onClick="addAttachments();ofSubmitForm('${formId}');"> Submit </button>
+		    	#end
+		    	<span class="empty_space"></span> 		    	
+		    #elseif($operatingFunction.isSubmit()==true && $operatingFunctionForTask.isSubmit()==false)
+		    	<button type="button" name="Submit" class="btn btn-info" onClick="operatingFunctionPermission('Submit')"> Submit </button>
+		    #else		    
+		    #set($isOperationFnSubmit = false)
+		    #end		    
+		    #if($operatingFunctionForTask.isSave()==true || ($isStartNodeTask == true && $isCreator== true ))
+		    	<button type="button" name="Save" class="btn btn-info" onClick="ofSaveForm('${formId}', '${taskId}');"> Save </button>
+		    	<span class="empty_space"></span>
+		    #elseif($operatingFunction.isSubmit()==true && $operatingFunctionForTask.isSubmit()==false)
+		   		 <button type="button" name="Save" class="btn btn-info" onClick="operatingFunctionPermission('Save')"> Save </button>
+		    	<span class="empty_space"></span>
+		    #end		
+		    	
+			 #if(${showReadButton}==false)	
+			  		<button type="button" name="Read" class="btn btn-info" onClick="submitRead(${taskId});"> Read </button>
+			  		<span class="empty_space"></span>
+			  		<button type="button" name="Cancel" class="btn btn-info" onClick="cancelTaskToReadView(${taskId});"> Cancel </button>
+			 #elseif(${showReadButton}==true)
+			  	<button type="button" name="Read" class="btn btn-info" onClick="submitUnRead(${taskId});"> Unread </button>
+			  	<span class="empty_space"></span>
+			  		<button type="button" name="Cancel" class="btn btn-info" onClick="cancelTaskReadedView(${taskId});"> Cancel </button>
+			  #else
+			  		<button type="button" name="Cancel" class="btn btn-info" onClick="cancelTaskView(${taskId});"> Cancel </button>
+			  #end			  
+			  <span class="empty_space"></span>
+			  <button type="button" name="Print" class="btn btn-info" onClick="showPrintTemplate('${taskId}', '${formUniqueId}', '${formId}');"> Print </button>
+			   <span class="empty_space"></span>
+				#include( "../pages/task/operatingfunction/showOperatingFunctions.jsp" )
+
+
+#if($operatingFunction.getCustomOperations()=='null')	
+
+#else 
+<span class="fontBold fontSize13 pull-right" style="padding:5px;font-size:14px;">
+Custom Functions
+
+#end
+  <ul class="noStyleList" style="margin-top:20px;">
+  #foreach($customOperatingFunction in $operatingFunction.getCustomOperations())	
+	<script>
+   	${customOperatingFunction.getJsFunction()}
+   </script>
+   <li>
+		<table>
+		<tr>
+			<td>
+			<img src="${customOperatingFunction.getPictureByteArrayId()}" class="thumbnail"/>
+			</td>
+			   				
+			<td valign="middle" class="padding5">
+			<a href="#" onClick="${customOperatingFunction.getCallFunction()}()" style="${customOperatingFunction.getHtmlProperty()}">
+				${customOperatingFunction.getName()}
+			</a>
+			</td>
+		</tr>
+		</table>   			 
+  	</li>
+#end    
+</ul>
+</span>
+
+
+		</td>
+	</tr>						
+</table>
+</div>
+<div style="display:none;" id="hiddenDetails">
+<input type="hidden" id= "taskId" name="taskId" value="${taskId}" />
+<input type="hidden" name="resourceName" value="${resourceName}" />
+<input type="hidden" id="nextTaskOrganizers" name="nextTaskOrganizers"/>
+<input type="hidden" id="nextTaskCoordinators" name="nextTaskCoordinators" />
+<input type="hidden" id="organizerOrders" name="organizerOrders"/> 
+<input type="hidden" id="organizerSuperior" name="organizerSuperior" /> 
+<input type="hidden" id="organizerSubordinate" name="organizerSubordinate" /> 
+<input type="hidden" name="id" column="ID" value="" />
+<input type="hidden" name="isSameForm" id="isSameForm" />
+<input type="hidden" name="isStartForm" id="isStartForm" />
+<input type="hidden" name="nodeType" id="nodeType" value="${nodeType}" />
+<input type="hidden" id="isStartNodeTask" name="isStartNodeTask" value="${isStartNodeTask}" />
+<input type="hidden" id="endScriptName" name="endScriptName" value="${endScriptName}" />
+<input type="hidden" name="addAttachmentIds" id="addAttachmentIds" value="" />
+<input type="hidden" name="removeAttachmentIds" id="removeAttachmentIds" value="" />
+<input type="hidden" id="formId" name="formId" value="${formId}" />
+<input type="hidden" id="lastOperationPerformed" name="lastOperationPerformed" value="${lastOperationPerformed}" />
+<input type="hidden" id="pastValuesJson" name="pastValuesJson" value="" />
+<input type="hidden" id="executionId" name="executionId" value="${executionId}" />
+<input type="hidden" id="taskName" name="taskName" value="${taskName}" />
+<input type="hidden" id="sendMail" name="sendMail"  />
+<input type="hidden" id="sendInternalMail" name="sendInternalMail"/>
+<input type="hidden" id="subFormCount" name="subFormCount" value="${subFormCount}">
+<input type="hidden" id="htmlSourceForSubForm" name="htmlSourceForSubForm">
+<input type="hidden" id="processDefinitionId" name="processDefinitionId" value="${processDefinitionId}" />
+<input type="hidden" id="rowNumbers" name="rowNumbers" value=""/>
+<input type="hidden" id="isSave" name="isSave" value="false"/>
+<input type="hidden" id="isLastTask" name="isLastTask" value="0"/>
+
+</div>
+<script type="text/javascript">
+prepareSubmitTaskFormForSubmit("${formId}", "${formAction}","$isOperationFnSubmit","$isFinalTransactor",'$showReadButton');
+$(document).ready(function() {
+
+count =0;
+ var table = document.getElementById( 'subFormTable' );
+ 
+ 	var count = $("#subFormTable tr").length;
+	$('#subFormCount').val(count-1);
+	
+ if(table != null ) {
+  var trId = table.getElementsByTagName("tr");
+    for (var row = 0; row < trId.length;row++) {
+	    var rowId = trId[row].id;
+        if(rowId != "") {
+               	var arrayValue = parseInt(rowId.substring(rowId.length-1));
+        		rowNumbers.push(arrayValue);
+				$('#rowNumbers').val(rowNumbers);
+        }
+    }
+ }
+
+	  $(".file-upload-control").each(function( index ) {
+		var element_id = this.getAttribute("id");
+		var element_name = this.getAttribute("name");
+		var tableId = element_name+"Table";
+		var tableTd = tableId+"Td";
+		var before_html ="";
+		
+		var topPosition =  $(this).css("top");
+	  	var leftPosition =  $(this).css("left");
+	  	var top = topPosition.split("px");
+	  	var left = leftPosition.split("px");
+	  	var styleAddBtn = "position:absolute;top:"+(parseInt(top[0])+8)+"px;left:"+(parseInt(left[0])+300)+"px";	
+	  	var styleRemoveBtn = "position:absolute;top:"+(parseInt(top[0])+8)+"px;left:"+(parseInt(left[0])+340)+"px";		 
+		if('$isFormReadOnly'!='true'){
+			 before_html = "<div id='"+tableId+"'><div id='"+tableTd+"'><a style='"+styleAddBtn+"' href='javascript:;' onclick=cloneDiv('"+tableId+"')>Add</a><a style='"+styleRemoveBtn+"' class='deleteDiv' id='deleteDiv' href='javascript:;'>Remove</a>";
+		}
+		$("#"+element_id).before(before_html);
+		var element = $('#'+element_id).detach();
+		$('#'+tableTd).append(element);
+		if(index == 0) {
+			$('#${formId}').attr('enctype', 'multipart/form-data');
+		}
+	});
+	
+    $(".datetimepicker").datetimepicker({
+        showOn: 'button',
+        //buttonText: 'Show Date',
+        buttonImageOnly: true,
+        buttonImage: '/images/easybpm/form/rbl/_cal.gif',
+        dateFormat: 'yy-mm-dd',
+        timeFormat: 'hh:mm:ss',
+       // minDate: 0,
+        constrainInput: true
+    });
+
+    $(".ui-datepicker-trigger").mouseover(function() {
+        $(this).css('cursor', 'pointer');
+    });
+    
+    $(".datepicker").datepicker({
+        showOn: 'button',
+        //buttonText: 'Show Date',
+        buttonImageOnly: true,
+        buttonImage: '/images/easybpm/form/rbl/_cal.gif',
+        dateFormat: 'yy-mm-dd',   
+       // minDate: 0,     
+        constrainInput: true
+    }); 
+	$('.number-validation').keyup(function () { 
+		    this.value = this.value.replace(/[^0-9]/g,'');
+	});
+	var regex = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+	
+	$('.email-validation').blur(function () { 
+		if(!regex.test(this.value)){
+			this.value="";
+		}
+		});
+	$('.decimal-validation').keyup(function () { 
+	    this.value = this.value.replace(/[^0-9\.]/g,'');
+	            if(this.value.split(".").length>2){
+	                  this.value=this.value.slice(0,-1);
+	            }
+	});
+	
+	$( ".data_dictionary" ).each(function( index ) {
+		
+		var element_id = this.getAttribute("id");
+		var parent_dictId = this.getAttribute("datadictionary");
+		var columnId = this.getAttribute("column");
+		addOptionValToDictionary(element_id,parent_dictId,columnId,$pastValuesJson,'${isFormReadOnly}');
+	  
+	});
+	
+	$( ".autocomplete" ).each(function( index ) {
+		var element_id = this.getAttribute("id");
+		var parent_dictId = this.getAttribute("datadictionary");
+		autoCompleteForDataDictionary(element_id,parent_dictId);
+	  
+	});
+	
+	$( ".user-control" ).each(function( index ) {
+		var element_id=this.getAttribute("id");
+		if(element_id!=null && element_id!=""){
+			if(element_id.indexOf("_username") !== -1){
+				this.innerHTML ='${username}';
+			}
+		}
+	});
+
+	
+	$(".mandatory").each(function() {
+		if($( this ).hasClass( "datetimepicker" ) || $( this ).hasClass( "datetimepicker" )){
+			$(this).next().after("&nbsp;<span class='requiredImg'>*</span>");
+		}else{
+			$(this).after("&nbsp;<span class='requiredImg'>*</span>");
+		}
+});
+
+		$('#htmlSourceForSubForm').val(document.getElementById("form_div").innerHTML);
+
+});	
+</script>
+<script>
+loadCKEditor(function() {
+  setTimeout(function(){	
+		for(key in richTextBoxMap){
+			$("#"+key).attr("style",richTextBoxMap[key]);
+		}
+	},1000);
+}); 
+
+	$( ".data_dictionary_radio" ).each(function( index ) {
+		
+		var element_id = this.getAttribute("id");
+		var parent_dictId = this.getAttribute("datadictionary");
+		var columnId = this.getAttribute("column");
+		radioButtonForDataDictionary(element_id,parent_dictId,columnId,$pastValuesJson,'${isFormReadOnly}');
+	  
+	});
+	
+	$( ".data_dictionary_checkbox" ).each(function( index ) {	
+		var element_id = this.getAttribute("id");
+		var parent_dictId = this.getAttribute("datadictionary");
+		var columnId = this.getAttribute("column");		
+		checkboxForDataDictionary(element_id,parent_dictId,columnId,$pastValuesJson,'${isFormReadOnly}');
+	  
+	});
+	
+
+</script>
+#if($nodeLevelFieldPermissions)
+	#foreach($nodeLevelFieldPermission in $nodeLevelFieldPermissions.keySet())	
+	#set($fieldPermission = $nodeLevelFieldPermissions.get($nodeLevelFieldPermission))
+		<script>
+			loadPermissionsOnCreate("${formId}", "${nodeLevelFieldPermission}", "$fieldPermission.isEditable()", "$fieldPermission.isRequired()", "$fieldPermission.isReadOnly()", "$fieldPermission.isHidden()", "$fieldPermission.isNoOutput()");
+		</script>
+	#end
+#end
+
+#if($pastValuesMap)
+<script>
+document.getElementById("isStartForm").value = $pastValuesMap.get('startNode');
+var isSameTable = false;
+</script>
+    #foreach($pastValuesMapKey in $pastValuesMap.keySet())
+        #set($pastValue = $pastValuesMap.get($pastValuesMapKey))
+        <script>
+           var isSameTableVal = setValuesForFormElements('${formId}', '${pastValuesMapKey}','${pastValue}');
+           if(isSameTableVal){
+          	 isSameTable = true;
+           }
+           
+        </script>
+    #end
+    #foreach($automatiFieldKey in $automatiFielInfo.keySet())
+        #set($fieldValue = $automatiFielInfo.get($automatiFieldKey).get('value'))
+        #set($fieldType = $automatiFielInfo.get($automatiFieldKey).get('type'))
+        #set($fieldName = $automatiFieldKey)
+        <script>
+            setAutomaticValuesForFormElements('${formId}', '${fieldName}','${fieldValue}','${fieldType}');
+           if(isSameTableVal){
+          	 isSameTable = true;
+           }
+           
+        </script>
+    #end
+    
+<script>
+$('#pastValuesJson').val(JSON.stringify($pastValuesJson));
+var isStartForm= document.getElementById("isStartForm").value;
+ showAttachments(isSameTable,isStartForm,'${processInstanceId}'); 
+ executeJavaEvent('${formId}','javaEventOnLoad');
+ 	if('$isFormReadOnly'=='true'){
+		replaceAllValueAsReadOnly('${formId}');
+	$('#subFormAdd').hide();
+	$('#subFormDelete').hide();
+	}
+</script>
+#end
+
+#if(${isStartScriptExist} == "true")
+	${startScript}
+#end
+
+ 
+ 

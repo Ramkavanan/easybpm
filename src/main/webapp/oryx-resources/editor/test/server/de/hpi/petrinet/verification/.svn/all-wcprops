@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3612/trunk/editor/test/server/de/hpi/petrinet/verification
+END
+PetriNetRGCalculatorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3612/trunk/editor/test/server/de/hpi/petrinet/verification/PetriNetRGCalculatorTest.java
+END
+notRelaxedSound2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2012/trunk/editor/test/server/de/hpi/petrinet/verification/notRelaxedSound2.xml
+END
+PetriNetSoundnessCheckerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3612/trunk/editor/test/server/de/hpi/petrinet/verification/PetriNetSoundnessCheckerTest.java
+END
+relaxedSoundPetriNet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1979/trunk/editor/test/server/de/hpi/petrinet/verification/relaxedSoundPetriNet.xml
+END
+notRelaxedSoundPetrinet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1979/trunk/editor/test/server/de/hpi/petrinet/verification/notRelaxedSoundPetrinet.xml
+END

@@ -1,0 +1,50 @@
+<script>
+jQuery("#form_button").click(function () {
+	var bValid = true;
+	if (bValid) {
+		var formName = jQuery("#e_name").val().trim();
+		var desc = jQuery("e_desc").val();
+		if(formName != ""){
+			jQuery("#properties_error").hide();
+			saveFormPanel() ; //in rbl_form.js
+			//callBuildXml();
+			jQuery("#propertyTab-content").hide();
+			propertiesMsgBox("Success","Form properties updated.","success","");
+		}else{
+			jQuery("#properties_error").show();
+			var	content = "Form Name should not be empty.";
+			propertiesMsgBox("Error",content,"error","e_name");
+		}
+	}
+});
+</script>
+<input type="hidden" name="e_action" id="e_action" size="30" maxlength="90" />
+<input type="hidden" name="e_label" id="e_label" size="30" maxlength="90"/>
+<form>
+	<div class="width-per-100 pad-T30">
+		<div id="form_row1">
+			<div>
+				<div class="floatleft"><label for="e_name" class="popUpFontStyle">Form Name</label></div>
+				<div class="floatleft pad-R10"><input type="text" name="e_name" id="e_name" class="text  ui-corner-all width140"/></div>
+			</div>
+			<div>
+				<div class="floatleft"><label for="e_desc" class="popUpFontStyle">Description</label></div>
+				<div class="floatleft pad-R10"><input type="text" name="e_desc" id="e_desc" size="30" maxlength="90" class="text  ui-corner-all width140"/></div>
+			</div>
+			<div>
+				<div class="floatleft"><label for="e_method" class="popUpFontStyle">Method</label></div>
+				<div class="floatleft" style="padding-right:15px;">
+					<select name="e_method" id="e_method" class="fCmb" readonly="O" style="width:170px;">
+  	  					<option value="POST">POST</option>
+  	  	    		</select>
+  	  	    	</div>
+			</div>
+			<div>
+				<div class="floatRight mar-T2 mar-R20"><input type="button" onclick="showFormPanel('true');" id="form_reset_button" value="Reset" class="btn btn-primary clearButton mar-L10 searchButtonSize padding0 line-height0"/></div>
+			</div>
+			<div>
+				<div class="floatRight mar-T2 mar-R20"><input type="button" id="form_button" value="Apply" class="btn btn-primary searchButtonSize mar-L10 padding0 line-height0"/></div>
+			</div>
+		</div>
+	</div>
+</form>

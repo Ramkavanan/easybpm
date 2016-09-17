@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/1467/trunk/editor/data/stencilsets/ibpmn/icons
+END
+new_complexinteraction.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1467/trunk/editor/data/stencilsets/ibpmn/icons/new_complexinteraction.png
+END
+new_event_end.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/ibpmn/icons/new_event_end.png
+END
+new_pool.png
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1467/trunk/editor/data/stencilsets/ibpmn/icons/new_pool.png
+END
+new_messageflow_to.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1467/trunk/editor/data/stencilsets/ibpmn/icons/new_messageflow_to.png
+END
+new_event.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/ibpmn/icons/new_event.png
+END
+new_timerevent.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/ibpmn/icons/new_timerevent.png
+END
+new_gateway_xor_data.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/ibpmn/icons/new_gateway_xor_data.png
+END
+new_gateway_and.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/ibpmn/icons/new_gateway_and.png
+END
+new_poolSet.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1467/trunk/editor/data/stencilsets/ibpmn/icons/new_poolSet.png
+END
+new_messageevent.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1467/trunk/editor/data/stencilsets/ibpmn/icons/new_messageevent.png
+END
+new_gateway_xor_event.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1467/trunk/editor/data/stencilsets/ibpmn/icons/new_gateway_xor_event.png
+END
+new_complexinteractioncollapsed.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1467/trunk/editor/data/stencilsets/ibpmn/icons/new_complexinteractioncollapsed.png
+END
+new_startevent.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/ibpmn/icons/new_startevent.png
+END
+new_messageflow_from.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1467/trunk/editor/data/stencilsets/ibpmn/icons/new_messageflow_from.png
+END
+new_sequenceflow.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/ibpmn/icons/new_sequenceflow.png
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1469/trunk/editor/data/stencilsets/interactionpetrinets/view
+END
+node.silenttransition.svg
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1461/trunk/editor/data/stencilsets/interactionpetrinets/view/node.silenttransition.svg
+END
+node.controlledsilenttransition.svg
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1461/trunk/editor/data/stencilsets/interactionpetrinets/view/node.controlledsilenttransition.svg
+END
+node.interaction.svg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1469/trunk/editor/data/stencilsets/interactionpetrinets/view/node.interaction.svg
+END
+node.place.svg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/interactionpetrinets/view/node.place.svg
+END
+edge.arc.svg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/interactionpetrinets/view/edge.arc.svg
+END
+node.diagram.svg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/interactionpetrinets/view/node.diagram.svg
+END

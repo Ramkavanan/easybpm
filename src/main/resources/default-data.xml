@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <table name="${db.tables.prefix}USER">
+          <column>ID</column>
+          <column>REVISION</column>
+        <column>USERNAME</column>
+        <column>PASSWORD</column>
+        <column>FIRST_NAME</column>
+        <column>LAST_NAME</column>
+        <column>ADDRESS</column>
+        <column>CITY</column>
+        <column>COUNTRY</column>
+        <column>EMAIL</column>
+        <column>PHONE_NO</column>
+        <column>POSTAL_CODE</column>
+        <column>PROVINCE</column>
+        <column>WEBSITE</column>
+        <column>PASSWORD_HINT</column>
+        <column>VERSION</column>
+        <column>IS_ENABLED</column>
+        <column>IS_EXPIRED</column>
+        <column>IS_LOCKED</column>
+        <column>IS_CREDENTIAL_EXPIRED</column>
+        <column>PICTURE_ID</column>
+        <row>
+            <value description="ID">user</value>
+            <value description="REVISION">1</value>
+            <value description="USERNAME">user</value>
+            <value description="PASSWORD">b6b1f4781776979c0775c71ebdd8bdc084aac5fe</value>
+            <value description="FIRST_NAME">Tomcat</value>
+            <value description="LAST_NAME">User</value>
+            <value description="ADDRESS"></value>
+            <value description="CITY">Denver</value>
+            <value description="COUNTRY">US</value>
+            <value description="EMAIL">tomcatuser@gmail.com</value>
+            <value description="PHONE_NO"></value>
+            <value description="POSTAL_CODE">80210</value>
+            <value description="PROVINCE">CO</value>
+            <value description="WEBSITE">http://tomcat.apache.org</value>
+            <value description="PASSWORD_HINT"><![CDATA[The same as your username.]]></value>
+            <value description="VERSION">1</value>
+            <value description="IS_ENABLED">1</value>
+            <value description="IS_EXPIRED">0</value>
+            <value description="IS_LOCKED">0</value>
+            <value description="IS_CREDENTIAL_EXPIRED">0</value>
+            <value description="PICTURE_ID">102</value>
+        </row>
+        <row>
+            <value description="ID">admin</value>
+            <value description="REVISION">1</value>
+            <value description="USERNAME">admin</value>
+            <value description="PASSWORD">a40546cc4fd6a12572828bb803380888ad1bfdab</value>
+            <value description="FIRST_NAME">Exelanz</value>
+            <value description="LAST_NAME">User</value>
+            <value description="ADDRESS"></value>
+            <value description="CITY">Denver</value>
+            <value description="COUNTRY">US</value>
+            <value description="EMAIL">adminuser@gmail.com</value>
+            <value description="PHONE_NO"></value>
+            <value description="POSTAL_CODE">80210</value>
+            <value description="PROVINCE">CO</value>
+            <value description="WEBSITE">http://exelanz.com</value>
+            <value description="PASSWORD_HINT"><![CDATA[The same as your username.]]></value>
+            <value description="VERSION">1</value>
+            <value description="IS_ENABLED">1</value>
+            <value description="IS_EXPIRED">0</value>
+            <value description="IS_LOCKED">0</value>
+            <value description="IS_CREDENTIAL_EXPIRED">0</value>
+            <value description="PICTURE_ID">101</value>
+        </row>
+        <row>
+            <value description="ID">james</value>
+            <value description="REVISION">1</value>
+            <value description="USERNAME">james</value>
+            <value description="PASSWORD">f877f3c635faa2b39b77913ad21474c594b92bb5</value>
+            <value description="FIRST_NAME">Exelanz</value>
+            <value description="LAST_NAME">User</value>
+            <value description="ADDRESS"></value>
+            <value description="CITY">Denver</value>
+            <value description="COUNTRY">US</value>
+            <value description="EMAIL">jamesnuser@gmail.com</value>
+            <value description="PHONE_NO"></value>
+            <value description="POSTAL_CODE">80210</value>
+            <value description="PROVINCE">CO</value>
+            <value description="WEBSITE">http://exelanz.com</value>
+            <value description="PASSWORD_HINT"><![CDATA[The same as your username.]]></value>
+            <value description="VERSION">1</value>
+            <value description="IS_ENABLED">1</value>
+            <value description="IS_EXPIRED">0</value>
+            <value description="IS_LOCKED">0</value>
+            <value description="IS_CREDENTIAL_EXPIRED">0</value>
+            <value description="PICTURE_ID">101</value>
+        </row>
+    </table>
+    <table name="${db.tables.prefix}ROLE">
+      <column>ID</column>
+        <column>NAME</column>
+        <column>DESCRIPTION</column>
+        <row>
+            <value description="ID">ROLE_ADMIN</value>
+            <value description="NAME">ROLE_ADMIN</value>
+            <value description="DESCRIPTION"><![CDATA[Administrator role (can edit Users)]]></value>
+        </row>
+        <row>
+            <value description="ID">ROLE_USER</value>
+            <value description="NAME">ROLE_USER</value>
+            <value description="DESCRIPTION"><![CDATA[Default role for all Users]]></value>
+        </row>
+        <row>
+            <value description="ID">ROLE_DEPARTMENT_ADMIN</value>
+            <value description="NAME">ROLE_DEPARTMENT_ADMIN</value>
+            <value description="DESCRIPTION"><![CDATA[Administrator role for a dept]]></value>
+        </row>
+         <row>
+            <value description="ID">ROLE_DEPARTMENT_USER</value>
+            <value description="NAME">ROLE_DEPARTMENT_USER</value>
+            <value description="DESCRIPTION"><![CDATA[User role for a dept]]></value>
+        </row>
+    </table>
+   <table name="${db.tables.prefix}GROUP">
+      <column>ID</column>
+        <column>NAME</column>
+        <column>DESCRIPTION</column>
+        <row>
+            <value description="ID">exelanz</value>
+            <value description="NAME">Exelanz</value>
+            <value description="DESCRIPTION"><![CDATA[Exelanz Group]]></value>
+            <value description="REVISION">1</value>
+            <value description="GROUP_TYPE">1</value>
+        </row>
+        <row>
+            <value description="ID">tomcat</value>
+            <value description="NAME">TOMCAT</value>
+            <value description="DESCRIPTION"><![CDATA[Tomcat Group for all Users]]></value>
+            <value description="REVISION">1</value>
+            <value description="GROUP_TYPE">1</value>
+        </row>
+        <row>
+            <value description="ID">engineering</value>
+            <value description="NAME">Engineering</value>
+            <value description="DESCRIPTION"><![CDATA[Engineering]]></value>
+            <value description="REVISION">1</value>
+            <value description="GROUP_TYPE">1</value>
+        </row>
+        <row>
+            <value description="ID">management</value>
+            <value description="NAME">Management</value>
+            <value description="DESCRIPTION"><![CDATA[Management]]></value>
+            <value description="REVISION">1</value>
+            <value description="GROUP_TYPE">1</value>
+        </row>
+         <row>
+            <value description="ID">marketing</value>
+            <value description="NAME">Marketing</value>
+            <value description="DESCRIPTION"><![CDATA[Marketing]]></value>
+            <value description="REVISION">1</value>
+            <value description="GROUP_TYPE">1</value>
+        </row>
+         <row>
+            <value description="ID">sales</value>
+            <value description="NAME">Sales</value>
+            <value description="DESCRIPTION"><![CDATA[Sales]]></value>
+            <value description="REVISION">1</value>
+            <value description="GROUP_TYPE">1</value>
+        </row>
+    </table>    
+    <table name="${db.tables.prefix}DEPARTMENT">
+      <column>ID</column>
+        <column>NAME</column>
+        <column>DESCRIPTION</column>
+         <column>REVISION</column>
+        <column>DEPARTMENT_TYPE</column>
+        <column>IS_PARENT</column>
+        <column>SUPER_DEPARTMENT</column>
+        <column>DEPARTMENT_OWNER</column>
+        <row>
+            <value description="ID">sales</value>
+            <value description="NAME">Sales</value>
+            <value description="DESCRIPTION"><![CDATA[Sales Department]]></value>
+            <value description="REVISION">1</value>
+            <value description="DEPARTMENT_TYPE">1</value>
+            <value description="IS_PARENT">1</value>
+            <value description="SUPER_DEPARTMENT">sales</value>
+            <value description="DEPARTMENT_OWNER">admin</value>
+        </row>
+        <row>
+            <value description="ID">internal sales</value>
+            <value description="NAME">Internal Sales</value>
+            <value description="DESCRIPTION"><![CDATA[Internal Sales Dept]]></value>
+            <value description="REVISION">1</value>
+            <value description="DEPARTMENT_TYPE">1</value>
+            <value description="IS_PARENT">0</value>
+            <value description="SUPER_DEPARTMENT">sales</value>
+            <value description="DEPARTMENT_OWNER">admin</value>
+        </row>
+        <row>
+            <value description="ID">local sales</value>
+            <value description="NAME">Local Sales</value>
+            <value description="DESCRIPTION"><![CDATA[Local Dept]]></value>
+            <value description="REVISION">1</value>
+            <value description="DEPARTMENT_TYPE">1</value>
+            <value description="IS_PARENT">0</value>
+            <value description="SUPER_DEPARTMENT">sales</value>
+            <value description="DEPARTMENT_OWNER">admin</value>
+        </row>        
+    </table>
+    <table name="${db.tables.prefix}USER_ROLE">
+        <column>USER_ID</column>
+        <column>ROLE_ID</column>
+        <row>
+            <value description="USER_ID">user</value>
+            <value description="ROLE_ID">ROLE_USER</value>
+        </row>
+        <row>
+            <value description="USER_ID">admin</value>
+            <value description="ROLE_ID">ROLE_ADMIN</value>
+        </row>
+         <row>
+            <value description="USER_ID">james</value>
+            <value description="ROLE_ID">ROLE_ADMIN</value>
+        </row>
+    </table>
+    <table name="${db.tables.prefix}USER_DEPARTMENT">
+        <column>USER_ID</column>
+        <column>DEPARTMENT_ID</column>
+        <row>
+            <value description="USER_ID">user</value>
+            <value description="DEPARTMENT_ID">sales</value>
+        </row>
+        <row>
+            <value description="USER_ID">admin</value>
+            <value description="DEPARTMENT_ID">internal sales</value>
+        </row>
+         <row>
+            <value description="USER_ID">james</value>
+            <value description="DEPARTMENT_ID">local sales</value>
+        </row>
+    </table>
+    <table name="${db.tables.prefix}DEPARTMENT_ROLE">
+        <column>DEPARTMENT_ID</column>
+        <column>ROLE_ID</column>
+        <row>
+            <value description="DEPARTMENT_ID">sales</value>
+            <value description="ROLE_ID">ROLE_DEPARTMENT_ADMIN</value>
+        </row>
+         <row>
+            <value description="DEPARTMENT_ID">sales</value>
+            <value description="ROLE_ID">ROLE_DEPARTMENT_USER</value>
+        </row>
+        <row>
+            <value description="DEPARTMENT_ID">internal sales</value>
+            <value description="ROLE_ID">ROLE_DEPARTMENT_ADMIN</value>
+        </row>
+        <row>
+            <value description="DEPARTMENT_ID">internal sales</value>
+            <value description="ROLE_ID">ROLE_DEPARTMENT_USER</value>
+        </row>
+        <row>
+            <value description="DEPARTMENT_ID">local sales</value>
+            <value description="ROLE_ID">ROLE_DEPARTMENT_ADMIN</value>
+        </row>
+         <row>
+            <value description="DEPARTMENT_ID">local sales</value>
+            <value description="ROLE_ID">ROLE_DEPARTMENT_USER</value>
+        </row>
+    </table>
+     <table name="${db.tables.prefix}MEMBERSHIP">
+        <column>USER_ID</column>
+        <column>GROUP_ID</column>
+        <row>
+            <value description="USER_ID">user</value>
+            <value description="GROUP_ID">tomcat</value>
+        </row>
+        <row>
+            <value description="USER_ID">admin</value>
+            <value description="GROUP_ID">exelanz</value>
+        </row>
+         <row>
+            <value description="USER_ID">admin</value>
+            <value description="GROUP_ID">engineering</value>
+        </row>
+         <row>
+            <value description="USER_ID">admin</value>
+            <value description="GROUP_ID">management</value>
+        </row>
+        <row>
+            <value description="USER_ID">james</value>
+            <value description="GROUP_ID">exelanz</value>
+        </row>
+         <row>
+            <value description="USER_ID">james</value>
+            <value description="GROUP_ID">engineering</value>
+        </row>
+        <row>
+            <value description="USER_ID">james</value>
+            <value description="GROUP_ID">management</value>
+        </row>
+    </table>
+    <table name="${db.tables.prefix}TASK_ROLE">
+      <column>ID</column>
+        <column>NAME</column>
+        <column>DESCRIPTION</column>
+	        <row>
+	            <value description="ID">organizers</value>
+	            <value description="NAME">Organizers</value>
+	            <value description="DESCRIPTION"><![CDATA[Organizers]]></value>
+	        </row>
+	        <row>
+	            <value description="ID">coordinators</value>
+	            <value description="NAME">Coordinators</value>
+	            <value description="DESCRIPTION"><![CDATA[Coordinators]]></value>
+	        </row>
+	        <row>
+	            <value description="ID">readers</value>
+	            <value description="NAME">Readers</value>
+	            <value description="DESCRIPTION"><![CDATA[Readers]]></value>
+	        </row>
+	         <row>
+	            <value description="ID">creators</value>
+	            <value description="NAME">Creators</value>
+	            <value description="DESCRIPTION"><![CDATA[Creators]]></value>
+	        </row>
+	         <row>
+	            <value description="ID">processed users</value>
+	            <value description="NAME">Processed Users</value>
+	            <value description="DESCRIPTION"><![CDATA[Processed Users]]></value>
+	        </row>
+	            <row>
+	            <value description="ID">workflow administrator</value>
+	            <value description="NAME">Workflow Administrator</value>
+	            <value description="DESCRIPTION"><![CDATA[Workflow Administrator]]></value>
+	        </row>
+    </table>
+</dataset>

@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view
+END
+edge.readaccess.svg
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/edge.readaccess.svg
+END
+node.textannotation.svg
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.textannotation.svg
+END
+edge.protocolboundary.svg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/edge.protocolboundary.svg
+END
+node.textlabel.svg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.textlabel.svg
+END
+edge.modifyingaccess.2.svg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/view/edge.modifyingaccess.2.svg
+END
+edge.modifyingaccess.svg
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/edge.modifyingaccess.svg
+END
+edge.writeaccess.svg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/edge.writeaccess.svg
+END
+node.agent.svg
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.agent.svg
+END
+edge.undirectedassociation.svg
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/edge.undirectedassociation.svg
+END
+node.requestsymbol-b2t.svg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.requestsymbol-b2t.svg
+END
+node.requestsymbol-t2b.svg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.requestsymbol-t2b.svg
+END
+node.storage.svg
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.storage.svg
+END
+node.diagram.svg
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.diagram.svg
+END
+node.human-agent.svg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.human-agent.svg
+END
+edge.bidirectionalconnection.svg
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/edge.bidirectionalconnection.svg
+END
+node.channel.svg
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.channel.svg
+END
+node.structurevariance.svg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1909/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.structurevariance.svg
+END
+node.requestsymbol-r2l.svg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.requestsymbol-r2l.svg
+END
+node.requestsymbol-l2r.svg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/view/node.requestsymbol-l2r.svg
+END
+edge.modifyingaccess.3.edit.svg
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/view/edge.modifyingaccess.3.edit.svg
+END

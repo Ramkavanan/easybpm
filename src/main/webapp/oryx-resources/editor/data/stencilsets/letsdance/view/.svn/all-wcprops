@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1468/trunk/editor/data/stencilsets/letsdance/view
+END
+node.elementaryinteraction.svg
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1468/trunk/editor/data/stencilsets/letsdance/view/node.elementaryinteraction.svg
+END
+inhibit_png.svg
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/view/inhibit_png.svg
+END
+node.complexinteraction.svg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/view/node.complexinteraction.svg
+END
+edge.inhibits.svg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/view/edge.inhibits.svg
+END
+edge.precedes.svg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/view/edge.precedes.svg
+END
+diagram.svg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/view/diagram.svg
+END
+edge.weakprecedes.svg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/view/edge.weakprecedes.svg
+END
+node.diagram.svg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/view/node.diagram.svg
+END

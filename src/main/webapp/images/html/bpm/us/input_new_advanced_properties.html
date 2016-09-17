@@ -1,0 +1,36 @@
+<script>
+jQuery("#new_event_handler").click(function () {
+	var bValid = true;
+	var _no = jQuery("#e_id").val() ;
+	if (bValid) {
+		jQuery("#properties_error").hide();
+		saveInputPanel( _no ) ; //in rbl_base.js
+		jQuery("#propertyTab-content").hide();
+		propertiesMsgBox("Success","Advanced properties updated.","success","");
+	}
+});
+
+jQuery("#reset_new_event_handler").click(function () {
+	var _id=jQuery("#e_id").val() ;
+	showControlPanel("f_" + _id, "create");
+});
+
+</script>
+<div class="width-per-100 pad-T30">
+	<div id="text_row1">
+		<div>
+			<div class="floatleft"><label for="name" class="popUpFontStyle">OnFocus</label></div>
+			<div class="floatleft pad-R10"><textarea name="onFocus" id="onFocus" cols="20" rows="2" class="text  ui-corner-all" /></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="title" class="popUpFontStyle">OnClick</label></div>
+			<div class="floatleft pad-R10"><textarea name="onClick" id="onClick" cols="20" rows="2" class="text  ui-corner-all" /></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="mask" class="popUpFontStyle">OnBlur</label></div>
+			<div class="floatleft pad-R10"><textarea name="onBlur" id="onBlur" cols="20" rows="2" class="text  ui-corner-all" /></div>
+		</div>
+		<div><div class="floatRight mar-T15 mar-R70"><input type="button" id="reset_new_event_handler" value="Reset" class="btn btn-primary  clearButton mar-L10 searchButtonSize padding0 line-height0"/></div></div>
+		<div><div class="floatRight mar-T15 mar-R70"><input type="button" id="new_event_handler" value="Apply" class="btn btn-primary searchButtonSize mar-L10 padding0 line-height0"/></div></div>
+	</div>
+</div>

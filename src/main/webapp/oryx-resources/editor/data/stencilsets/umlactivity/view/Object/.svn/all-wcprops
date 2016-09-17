@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/Object
+END
+edge.objectFlow.svg
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/Object/edge.objectFlow.svg
+END
+edge.objectFlow.implicit.svg
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/Object/edge.objectFlow.implicit.svg
+END
+node.object.svg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/Object/node.object.svg
+END

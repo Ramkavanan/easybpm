@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/treeGraph/view
+END
+connection.flow.svg
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/treeGraph/view/connection.flow.svg
+END
+node.place.svg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/treeGraph/view/node.place.svg
+END
+node.diagram.svg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/treeGraph/view/node.diagram.svg
+END

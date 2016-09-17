@@ -1,0 +1,56 @@
+<script>
+jQuery("#text_button").click(function () {
+	var bValid = true;
+	var _no = jQuery("#e_id").val() ;
+	if (bValid) {
+		var label = jQuery("#title").val().trim();
+		if(label != ""){
+			var name = label.toLowerCase().replace(/[" "]/g,"");
+			$('#name').val(name);
+			jQuery("#properties_error").hide();
+			saveInputPanel( _no ) ; //in rbl_base.js
+			jQuery("#propertyTab-content").hide();
+			propertiesMsgBox("Success","File upload properties updated.","success","title");
+		}else{
+			jQuery("#properties_error").show();
+			var	content = "Label should not be empty.";
+			propertiesMsgBox("Error",content,"error","title");
+		}
+	}
+});
+
+jQuery("#upload_reset_button").click(function () {
+	var _id=jQuery("#e_id").val() ;
+	showControlPanel("f_" + _id, "create");
+});
+
+</script>
+<input type="hidden" name="val_liste" id="val_liste" />
+<input type="hidden" name="type_html" id="type_html" value="TEXT" /> <input type="hidden" name="e_id" id="e_id" readonly="O" class="text  ui-corner-all" value="test"/>
+
+<div width="100%" style="padding:15px;">
+	<div id="text_row1">
+		<div>
+			<div class="floatleft"><label for="name" class="popUpFontStyle">Name </label></div>
+			<div class="floatleft" style="padding-right:15px;"><input type="text" name="name" id="name" class="text  ui-corner-all width140" readonly="0"/></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="title" class="popUpFontStyle">Label </label></div>
+			<div class="floatleft" style="padding-right:15px;"><input type="text" name="title" id="title" class="text  ui-corner-all width140"/></div>
+		</div>
+		<div id="isRequired" class="displayBlock">
+			<div class="floatleft"><label class="popUpFontStyle" for="required">Required</label></div>
+			<div class="floatleft" style="padding-right:15px;"><input type="checkbox" name="required" id="required" class="radio  ui-corner-all width140"/></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="help_text" class="popUpFontStyle">Help</label></div>
+			<div class="floatleft"><textarea name="help_text" id="help_text" cols="30" rows="1" class="text  ui-corner-all width140"/></div>
+		</div>
+		<div>
+			<div style="float:right;margin-right:20px;margin-top:10px;"><input type="button" id="upload_reset_button" value="Reset" class="btn btn-primary clearButton mar-L10 searchButtonSize padding0 line-height0"></div>
+			<div style="float:right;margin-right:20px;margin-top:10px;"><input type="button" id="text_button" value="Apply" class="btn btn-primary searchButtonSize mar-L10 padding0 line-height0"></div>
+		</div>
+	</div>
+</div>
+	
+	

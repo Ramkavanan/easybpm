@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/view/structure
+END
+complex_class.svg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/view/structure/complex_class.svg
+END
+simple_class.svg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/view/structure/simple_class.svg
+END
+interface.svg
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/view/structure/interface.svg
+END
+enumeration.svg
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/view/structure/enumeration.svg
+END

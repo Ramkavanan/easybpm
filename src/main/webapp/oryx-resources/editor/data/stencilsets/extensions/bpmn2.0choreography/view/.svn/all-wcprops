@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2984/trunk/editor/data/stencilsets/extensions/bpmn2.0choreography/view
+END
+choreography.messageflow.start.svg
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/2653/trunk/editor/data/stencilsets/extensions/bpmn2.0choreography/view/choreography.messageflow.start.svg
+END
+choreography.subprocess.collapsed.svg
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/2984/trunk/editor/data/stencilsets/extensions/bpmn2.0choreography/view/choreography.subprocess.collapsed.svg
+END
+choreography.participant.svg
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/2984/trunk/editor/data/stencilsets/extensions/bpmn2.0choreography/view/choreography.participant.svg
+END
+choreography.subprocess.expanded.svg
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/2984/trunk/editor/data/stencilsets/extensions/bpmn2.0choreography/view/choreography.subprocess.expanded.svg
+END
+choreography.messageflow.end.svg
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/2653/trunk/editor/data/stencilsets/extensions/bpmn2.0choreography/view/choreography.messageflow.end.svg
+END
+choreography.task.svg
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2984/trunk/editor/data/stencilsets/extensions/bpmn2.0choreography/view/choreography.task.svg
+END

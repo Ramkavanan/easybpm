@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/ActionAndActivity
+END
+node.event.incoming.svg
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/ActionAndActivity/node.event.incoming.svg
+END
+node.event.outgoing.svg
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/ActionAndActivity/node.event.outgoing.svg
+END
+node.activity.svg
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/ActionAndActivity/node.activity.svg
+END
+node.action.svg
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/ActionAndActivity/node.action.svg
+END
+node.event.time.svg
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/view/ActionAndActivity/node.event.time.svg
+END

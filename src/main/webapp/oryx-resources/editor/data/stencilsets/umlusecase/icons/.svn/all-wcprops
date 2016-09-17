@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons
+END
+node.diagram.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/node.diagram.png
+END
+node.system.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/node.system.png
+END
+node.note.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/node.note.png
+END
+edge.extend.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/edge.extend.png
+END
+node.useCase.extended.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/node.useCase.extended.png
+END
+node.actor.png
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/node.actor.png
+END
+node.useCase.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/node.useCase.png
+END
+edge.unnavigable_directed_association.png
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/edge.unnavigable_directed_association.png
+END
+edge.annotation.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/edge.annotation.png
+END
+edge.generalization.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/edge.generalization.png
+END
+edge.association.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/edge.association.png
+END
+edge.directed_association.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/edge.directed_association.png
+END
+node.actor.human.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/node.actor.human.png
+END
+edge.include.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/icons/edge.include.png
+END

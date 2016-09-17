@@ -1,0 +1,178 @@
+<script>
+jQuery("#event_handler").click(function () {
+	var bValid = true;
+	var _no = jQuery("#e_id").val() ;
+	_addBtnInManager(bValid, _no);
+});
+
+function _addBtnInManager(bValid, _no){
+	if($("#btnId").val() == ""){
+		$.msgBox({
+		    title: "Confirm",
+		    content: "Are you want to add this button in form buttons?",
+		    type: "prompt",
+		    inputs: [
+		             { header: "Add to button manager and this form", type: "radio", name: "userDefBtn", value: "create"},
+		             { header: "Add to this form only", type: "radio", name: "userDefBtn", value: ""}],
+		    buttons: [{ value: "Ok" }, { value: "Cancel" }],
+		    success: function (result, values) {
+		    	if(result == "Ok"){
+		    		var selectedVal = "";
+			    	var selected = $("input[type='radio'][name='userDefBtn']:checked");
+			    	selectedValue = selected.val();
+			        if (selectedValue == "create") {
+			        	jQuery("#_btnId").remove();
+			        	jQuery("#_btnName").val(jQuery("#val_defaut").val()) ;
+			        	jQuery("#_btnFunc").val(jQuery("#onClick").val()) ;
+			        	jQuery("#_btnStyle").val(jQuery("#btnStyle").val()) ;
+			        	$("#saveFormButton").ajaxSubmit();
+			        }
+		    	}else{
+		    		return false;
+		    	}
+		    },
+		    afterClose:function (){
+		    	addPropertiesForBtn(bValid, _no);
+		    } 
+		});
+	}else{
+		$.msgBox({
+		    title: "Confirm",
+		    content: "Are you want to add this button in form buttons?",
+		    type: "prompt",
+		    inputs: [
+		             { header: "Add to button manager and this form", type: "radio", name: "userDefBtn", value: "create"},
+		             { header: "Update to button manager and this form", type: "radio", name: "userDefBtn", value: "update"},
+		             { header: "Add to this form only", type: "radio", name: "userDefBtn", value: ""}],
+		    buttons: [{ value: "Ok" }, { value: "Cancel" }],
+		    success: function (result, values) {
+		    	if(result == "Ok"){
+		    		var selectedVal = "";
+			    	var selected = $("input[type='radio'][name='userDefBtn']:checked");
+		    		selectedValue = selected.val();
+			        if (selectedValue == "create") {
+			        	jQuery("#_btnId").remove() ;
+			        	jQuery("#_btnName").val(jQuery("#val_defaut").val()) ;
+			        	jQuery("#_btnFunc").val(jQuery("#onClick").val()) ;
+			        	jQuery("#_btnStyle").val(jQuery("#btnStyle").val()) ;
+			        	$("#saveFormButton").ajaxSubmit(function(res){
+			        			addPropertiesForBtn(bValid, _no);
+			        	});
+			        }else if (selectedValue == "update") {
+			        	jQuery("#_btnId").val(jQuery("#btnId").val()) ;
+			        	jQuery("#_btnName").val(jQuery("#val_defaut").val()) ;
+			        	jQuery("#_btnFunc").val(jQuery("#onClick").val()) ;
+			        	jQuery("#_btnStyle").val(jQuery("#btnStyle").val()) ;
+			        	$("#saveFormButton").ajaxSubmit();
+			        }
+		    	}else{
+		    		return false;
+		    	}
+		    },
+		    afterClose:function (){
+		    	addPropertiesForBtn(bValid, _no);
+		    } 
+		});
+	}
+}
+
+function addPropertiesForBtn(bValid, _no){
+	if (bValid) {
+		jQuery("#properties_error").hide();
+		saveInputPanel( _no ) ; //in rbl_base.js
+		jQuery("#propertyTab-content").hide();
+		setTimeout(function() {
+			$.msgBox({
+       		    title:"Success",
+       		    content:"Properties updated",
+       			type: "success"
+       		});
+		}, 300);
+	}
+}
+jQuery("#reset_event_handler").click(function () {
+	var _id=jQuery("#e_id").val() ;
+	showControlPanel("f_" + _id, "create");
+});
+
+function showButtonIcons(){
+	jQuery.ajax({
+		url: 'bpm/form/getButtonIcons',
+	    type: 'GET',
+	    dataType: 'json',
+		async: false,
+		success : function(response) {
+			var htmlContent = "<table  width='100%'><tr>";
+			for(var index = 0; index < response.length; index++){
+				if(index % 5 == 0){
+					htmlContent = htmlContent + "</tr><tr>";
+				}
+				htmlContent = htmlContent + "<td align='center'><img class='cursor-pointer' onClick='selectButtonIcon(\""+response[index]+"\");' style='padding:5px;border:1px solid gray;' src='"+response[index]+"'/></td>";
+			}
+			htmlContent = htmlContent + "</tr></table>";
+			$("#button_icon_dialog").html(htmlContent);
+			openButtonIconDialog('button_icon_dialog', 300, 'Select icon');
+		} 
+	});
+}
+
+function openButtonIconDialog(divId, width, title){
+	 $myDialog = jQuery("#"+divId);
+	 $myDialog.dialog({
+       width: width,
+       height: 'auto',
+       modal: true,
+       title: title
+	 });
+	 $myDialog.dialog("open");
+}
+
+function selectButtonIcon(iconPath){
+	$("#_iconPath").val(iconPath);
+	$("#choosed_iconPath").attr("src", iconPath);
+	$("#button_icon_dialog").dialog("close");
+}
+</script>
+<div id="button_icon_dialog"></div>
+<div class="width-per-100 pad-T30">
+	<div id="text_row1">
+		<input type="hidden" name="btnId" id="btnId" />
+		<div>
+			<div class="floatleft"><label for="title" class="popUpFontStyle">OnClick</label></div>
+			<div class="floatleft pad-R10"><textarea name="onClick" id="onClick" cols="20" rows="2" class="text  ui-corner-all" /></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="name" class="popUpFontStyle">Style</label></div>
+			<div class="floatleft pad-R10"><textarea name="btnStyle" id="btnStyle" cols="20" rows="2" class="text  ui-corner-all" /></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="name" class="popUpFontStyle">Button Icon</label></div>
+			<div class="floatleft pad-R10">
+			
+				<table>
+					<tbody>
+						<tr>
+							<td width="30px" height="10px" align="center" class="menu-icon">
+								<img id="choosed_iconPath" src="" />
+							</td>
+							<td align="center">
+								<a href="javascript:void(0);" onClick="showButtonIcons();" >Choose Icon</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		
+		<div><div class="floatRight mar-T15 mar-R70"><input type="button" id="reset_event_handler" value="Reset" class="btn btn-primary clearButton mar-L10 searchButtonSize"/></div></div>
+		<div><div class="floatRight mar-T15 mar-R70"><input type="button" id="event_handler" value="Apply" class="btn btn-primary searchButtonSize"/></div></div>
+	</div>
+	<form  commandName="formButton" method="post" action="bpm/form/saveFormButton" autocomplete="off" modelAttribute="formButton" id="saveFormButton" style="display:none;"> 
+		<input type="hidden" id="_btnId" name="id"/>
+		<input type="hidden" id="_btnName" name="name"/>
+		<input type="hidden" id="_btnFunc" name="func"/>
+		<input type="hidden" id="_btnStyle" name="style"/>
+		<input type="hidden" id="_iconPath" name="iconPath"/>
+		<input type="submit" value="Save Form" class="btn btn-primary normalButton mar-L10 padding0 line-height0"/>
+	</form>
+</div>

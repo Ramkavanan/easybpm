@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors
+END
+aggregation.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors/aggregation.png
+END
+unnavigable_directed_association.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors/unnavigable_directed_association.png
+END
+annotation.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors/annotation.png
+END
+generalization.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors/generalization.png
+END
+association.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors/association.png
+END
+annotation_edge.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors/annotation_edge.png
+END
+dependency.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors/dependency.png
+END
+qualified_association.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors/qualified_association.png
+END
+directed_association.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors/directed_association.png
+END
+realization.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors/realization.png
+END
+composition.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3384/trunk/editor/data/stencilsets/uml2.2/icons/connectors/composition.png
+END

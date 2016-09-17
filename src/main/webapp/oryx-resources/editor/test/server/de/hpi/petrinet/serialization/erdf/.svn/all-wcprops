@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1918/trunk/editor/test/server/de/hpi/petrinet/serialization/erdf
+END
+petrinet.example
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1918/trunk/editor/test/server/de/hpi/petrinet/serialization/erdf/petrinet.example
+END
+PetriNeteRDFParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1918/trunk/editor/test/server/de/hpi/petrinet/serialization/erdf/PetriNeteRDFParserTest.java
+END

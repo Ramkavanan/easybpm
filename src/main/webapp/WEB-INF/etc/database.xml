@@ -1,0 +1,34 @@
+<!DOCTYPE databases PUBLIC "-//EXOLAB/Castor JDO Configuration DTD Version 1.0//EN"
+                           "http://castor.exolab.org/jdo-conf.dtd">
+
+<!-- PostgreSQL 
+<database name="jwma" engine="postgresql">
+  <!-- PostgreSQL 7.1
+  <data-source class-name="org.postgresql.PostgresqlDataSource">
+  -->
+  <!-- PostgreSQL 7.3, JDBC2+ Driver Java >=1.3 
+  <data-source class-name="org.postgresql.jdbc2.optional.SimpleDataSource">
+
+	<params server-name="localhost" port-number="5432"
+          database-name="jwma"
+		      user="jwma" password="jwma1DtW"
+	/>
+  </data-source>
+  <!-- Following just works with the modified castor library 
+  <mapping href="resource:dtw/webmail/resources/preferences_mapping.xml"/>
+  <mapping href="resource:dtw/webmail/resources/contactmgmt_mapping.xml"/>
+</database>-->
+
+
+<!-- MySQL Database -->
+
+<database name="jwma-mysql" engine="mysql">
+	<data-source class-name="com.mysql.jdbc.jdbc2.optional.MysqlDataSource">
+		<params server-name="localhost" port-number="3306"
+            database-name="jwma"
+            user="root" password=""/>
+	</data-source>
+  <mapping href="resource:dtw/webmail/resources/preferences_mapping.xml"/>
+  <mapping href="resource:dtw/webmail/resources/contactmgmt_mapping.xml"/>
+</database>
+

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.eazytec.model.MetaTable">
+
+  <!-- ATTACHMENT INSERT -->
+
+  <select id="insertValues" parameterType="org.activiti.engine.impl.RtQueryImpl">
+  	<include refid="insertValuesSql"/> 
+  </select>
+  
+  <select id="insertSubFormValuesFromMap" parameterType="java.util.Map">
+  	<include refid="insertSubFormValuesSql"/> 
+  </select>
+  
+   <select id="insertValuesFromMap" parameterType="java.util.Map">
+  	<include refid="insertValuesSql"/> 
+  </select>
+  
+  <select id="updateValues" parameterType="org.activiti.engine.impl.RtQueryImpl">
+  	<include refid="updateValuesSql"/> 
+  </select>
+  
+    <select id="insertProcessTableValues" parameterType="java.util.Map">
+  		<include refid="insertProcessTableValuesSql"/> 
+  	</select>
+
+	<delete id="deleteValues" parameterType="map">
+		delete from ${tableName} where ID = ${primaryKeyVal}
+	</delete>  
+  
+ <sql  id="updateValuesSql" >
+    update
+    	 `${parameter.tableName}`
+    set 
+		<foreach collection="parameter.columns" index="index" item="column" separator=",">
+	        ${column} = #{parameter.${column},jdbcType=VARCHAR}
+		</foreach>
+     where ${parameter.primaryKey} = ${parameter.primaryKeyVal}
+  </sql> 
+  
+
+  <sql id="insertValuesSql">
+    insert into `${parameter.tableName}` 
+    <foreach collection="parameter.columns" index="index" item="column"  open="(" separator="," close=")">
+         ${column}
+    </foreach>    
+    values 
+   	<foreach collection="parameter.fieldValues" index="index" item="fieldValue" open="(" separator="," close=")">
+		 ${fieldValue}
+    </foreach>        
+  </sql>
+  
+  <sql id="insertProcessTableValuesSql">
+      insert into ${prefix}RE_PROCESS_TABLE_DETAILS
+		    (`PROC_INST_ID_`,`TABLE_NAME_`) 
+		    values 
+		   	('${parameter.processInstId}','${parameter.tableName}')
+  </sql>
+  		   
+  
+  <sql id="insertSubFormValuesSql">
+    insert into `${parameter.tableName}` 
+    <foreach collection="parameter.columns" index="index" item="column" open="(" separator="," close=")">
+         ${column}
+    </foreach>    
+    values 
+    	<foreach collection="parameter.fieldValues" index="index" item="fieldValueList" separator=",">
+    		<foreach collection="fieldValueList" index="index1" item="fieldValue" open="(" separator="," close=")">
+		         ${fieldValue}
+   			 </foreach>        
+   	    </foreach>
+  </sql>
+  
+  <select id="updateSubFormValues" parameterType="org.activiti.engine.impl.RtQueryImpl">
+  	<include refid="updateSubFormValuesSql"/> 
+  </select>
+  
+  <sql id="updateSubFormValuesSql">
+  <foreach collection="parameter.columnsWithValue" index="index" item="columnWithValue">
+  	update
+    	 `${parameter.tableName}` 
+    set 
+		<foreach collection="parameter.columns" index="index" item="column" separator=",">
+	        ${column} = ${columnWithValue.${column},jdbcType=VARCHAR}
+		</foreach>
+     where ID = ${columnWithValue.ID}
+  </foreach>
+    
+  </sql>
+  
+  
+  <select id="getValuesForPrimaryKey" parameterType="java.util.Map" resultType="string">
+  	 select ID from `${parameter.tableName}` where ${parameter.primaryKey} = ${parameter.primaryKeyVal}
+  </select>
+  
+    <select id="getFormFieldTraceData" parameterType="java.util.Map" resultType="map">
+	SELECT 
+		DATE_FORMAT(MODIFIED_TIME_,'%Y-%m-%d %H:%i:%s') AS modifiedTime, 
+		(SELECT CONCAT(users.first_name ,' ', users.last_name )
+   	 	FROM ETEC_USER AS users where MODIFIED_BY_ = users.id ) AS modifiedBy,
+		FILED_NAME_ AS fieldName, 	
+		CHINESE_FILED_NAME_ AS chineseName, 	
+		IFNULL(OLD_VALUE_,'') AS oldValue, 
+		IFNULL(NEW_VALUE_,'') AS newValue
+	FROM 
+	    ${prefix}ACT_HI_FORM_FILED_AUDIT		
+    WHERE
+    	PROC_INST_ID_ = #{parameter.processInstanceId}  AND FORM_ID_ = #{parameter.formId}
+    ORDER BY 
+    	MODIFIED_TIME_
+  </select>
+</mapper>

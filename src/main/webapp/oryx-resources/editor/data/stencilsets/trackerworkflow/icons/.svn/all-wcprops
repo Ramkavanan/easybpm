@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons
+END
+new_diagram.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_diagram.png
+END
+new_association_unidirectional.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_association_unidirectional.png
+END
+new_place_marked.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_place_marked.png
+END
+new_exitaction.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_exitaction.png
+END
+new_flow.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_flow.png
+END
+new_transition_empty.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_transition_empty.png
+END
+new_triggeredaction.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_triggeredaction.png
+END
+new_annotation.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_annotation.png
+END
+new_flow_normal.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_flow_normal.png
+END
+new_place.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_place.png
+END
+new_transition.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_transition.png
+END
+new_mark.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_mark.png
+END
+new_invariant.png
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_invariant.png
+END
+new_precondition.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_precondition.png
+END
+new_transition_emptyV.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_transition_emptyV.png
+END
+new_entryaction.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_entryaction.png
+END
+new_flow_annotation.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1532/trunk/editor/data/stencilsets/trackerworkflow/icons/new_flow_annotation.png
+END

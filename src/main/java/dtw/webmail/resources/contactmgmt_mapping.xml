@@ -1,0 +1,251 @@
+<!DOCTYPE databases PUBLIC "-//EXOLAB/Castor Mapping DTD Version 1.0//EN" "http://castor.exolab.org/mapping.dtd">
+
+<mapping>
+
+  <!-- Mapping for CastorContacts -->
+  <class name="dtw.webmail.plugin.std.CastorContacts" identity="UID">
+    <map-to xml="contactsdb" table="ContactsDatabases"/>
+    <description>Maps a CastorContacts instance to xml and sql</description>
+
+    <field name="UID" type="string">
+      <sql name="dbID" type="varchar"/>
+      <bind-xml name="uid" node="attribute"/>
+    </field>
+
+    <field name="ContactsCollection"
+    		type="dtw.webmail.plugin.std.CastorContact"
+    		collection="collection">
+      <sql many-key="dbID"/>
+      <bind-xml name="contact" node="element" />
+    </field>
+
+    <field name="GroupsCollection"
+    		type="dtw.webmail.plugin.std.CastorContactGroup"
+    		collection="collection">
+      <sql many-key="dbID"/>
+      <bind-xml name="group" node="element" />
+    </field>
+
+  </class>
+
+    <!--  Mapping for CastorContactGroup  -->
+  <class name="dtw.webmail.plugin.std.CastorContactGroup"
+  		identity="UID">
+  	<description>Maps a CastorContactGroup to xml and sql</description>
+    <map-to table="ContactGroups" xml="group" />
+
+    <!-- Identifier -->
+    <field name="UID" type="string" >
+      <sql name="cgID" type="varchar"/>
+      <bind-xml name="identifier" node="attribute"/>
+    </field>
+
+    <!-- Database Identifier -->
+    <field name="AssociatorUID" type="string">
+      <sql name="dbID"/>
+      <bind-xml name="dbID" node="attribute"/>
+    </field>
+
+	  <!-- Name -->
+    <field name="Name" type="string" >
+      <sql name="name" type="varchar"/>
+      <bind-xml name="name" node="attribute"/>
+    </field>
+
+	  <!-- Note -->
+    <field name="Comments" type="string" >
+      <sql name="comments" type="clob" dirty="ignore"/>
+      <bind-xml name="comments" node="element"/>
+    </field>
+
+	  <!-- List of contacts  -->
+    <field name="ContactIDList" type="string">
+      <sql name="contacts" type="clob" dirty="ignore" />
+      <bind-xml name="contacts" node="element" />
+    </field>
+
+  </class>
+
+  <!--  Mapping for CastorContact  -->
+  <class name="dtw.webmail.plugin.std.CastorContact"
+         identity="UID">
+    <description>Maps a CastorContact to sql and xml</description>
+    <map-to table="Contacts" xml="contact" />
+
+    <!-- Identifier -->
+    <field name="UID" type="string">
+      <sql name="conID" type="varchar" />
+      <bind-xml name="identifier" node="attribute"/>
+    </field>
+
+    <!-- Database Identifier -->
+    <field name="AssociatorUID" type="string">
+      <sql name="dbID" type="varchar"/>
+      <bind-xml name="dbID" node="attribute"/>
+    </field>
+
+    <field name="Category" type="string">
+    	<sql name="category" type="varchar" />
+    	<bind-xml name="category" node="element"/>
+    </field>
+
+    <field name="Nickname" type="string">
+    	<sql name="nickname" type="varchar" />
+    	<bind-xml name="nickname" node="element"/>
+    </field>
+
+    <field name="Firstname" type="string">
+    	<sql name="firstname" type="varchar" />
+    	<bind-xml name="firstname" node="element"/>
+    </field>
+
+    <field name="Lastname" type="string">
+    	<sql name="lastname" type="varchar" />
+    	<bind-xml name="lastname" node="element"/>
+    </field>
+
+    <field name="Middlename" type="string">
+    	<sql name="middlename" type="varchar" />
+    	<bind-xml name="middlename" node="element"/>
+    </field>
+
+    <field name="Company" type="string">
+    	<sql name="company" type="varchar" />
+    	<bind-xml name="company" node="element"/>
+    </field>
+
+    <field name="Title" type="string">
+    	<sql name="title" type="varchar" />
+    	<bind-xml name="title" node="element"/>
+    </field>
+
+    <field name="Role" type="string">
+    	<sql name="role" type="varchar" />
+    	<bind-xml name="role" node="element"/>
+    </field>
+
+    <field name="HomePhoneNumber" type="string">
+    	<sql name="homenumber" type="varchar" />
+    	<bind-xml name="homenumber" node="element"/>
+    </field>
+
+    <field name="WorkPhoneNumber" type="string">
+    	<sql name="worknumber" type="varchar" />
+    	<bind-xml name="worknumber" node="element"/>
+    </field>
+
+
+    <field name="PagerNumber" type="string">
+    	<sql name="pagernumber" type="varchar" />
+    	<bind-xml name="pagernumber" node="element"/>
+    </field>
+
+    <field name="FaxNumber" type="string">
+    	<sql name="faxnumber" type="varchar" />
+    	<bind-xml name="faxnumber" node="element"/>
+    </field>
+
+    <field name="MobileNumber" type="string">
+    	<sql name="mobilenumber" type="varchar" />
+    	<bind-xml name="mobilenumber" node="element"/>
+    </field>
+
+    <field name="PrimarilyWorkContact" type="boolean"
+  			   get-method="isPrimarilyWorkContact"
+           set-method="setPrimarilyWorkContact">
+
+      <sql name="primarilywork" type="char[01]"/>
+      <bind-xml name="primarilywork" node="element"/>
+    </field>
+
+    <field name="WorkStreet" type="string">
+      <sql name="workstreet" type="varchar" />
+      <bind-xml name="workstreet" node="element"/>
+    </field>
+
+    <field name="WorkCity" type="string">
+      <sql name="workcity" type="varchar" />
+      <bind-xml name="workcity" node="element"/>
+    </field>
+
+    <field name="WorkRegion" type="string">
+      <sql name="workregion" type="varchar" />
+      <bind-xml name="workregion" node="element"/>
+    </field>
+
+    <field name="WorkCountry" type="string">
+      <sql name="workcountry" type="varchar" />
+      <bind-xml name="workcountry" node="element"/>
+    </field>
+
+    <field name="WorkZIP" type="string">
+      <sql name="workzip" type="varchar" />
+      <bind-xml name="workzip" node="element"/>
+    </field>
+
+       <field name="HomeStreet" type="string">
+      <sql name="homestreet" type="varchar" />
+      <bind-xml name="homestreet" node="element"/>
+    </field>
+
+    <field name="HomeCity" type="string">
+      <sql name="homecity" type="varchar" />
+      <bind-xml name="homecity" node="element"/>
+    </field>
+
+    <field name="HomeRegion" type="string">
+      <sql name="homeregion" type="varchar" />
+      <bind-xml name="homeregion" node="element"/>
+    </field>
+
+    <field name="HomeCountry" type="string">
+      <sql name="homecountry" type="varchar" />
+      <bind-xml name="homecountry" node="element"/>
+    </field>
+
+    <field name="homeZIP" type="string">
+      <sql name="homezip" type="varchar" />
+      <bind-xml name="homezip" node="element"/>
+    </field>
+
+    <field name="Email" type="string">
+    	<sql name="email" type="varchar" />
+    	<bind-xml name="email" node="element"/>
+    </field>
+
+    <field name="AlternateEmail" type="string">
+    	<sql name="altemail" type="varchar" />
+    	<bind-xml name="altemail" node="element"/>
+    </field>
+
+    <field name="URL" type="string">
+    	<sql name="url" type="varchar" />
+    	<bind-xml name="url" node="element"/>
+    </field>
+
+    <field name="CompanyURL" type="string">
+    	<sql name="companyurl" type="varchar" />
+    	<bind-xml name="companyurl" node="element"/>
+    </field>
+
+    <field name="Comments" type="string">
+			<sql name="comments" type="clob" dirty="ignore"/>
+			<bind-xml name="comments" node="element"/>
+		</field>
+
+    <field name="BirthDate" type="date">
+  		<sql name="birthdate" type="date"/>
+  		<bind-xml name="birthdate" node="element"/>
+  	</field>
+
+    <field name="FrequentRecipient" type="boolean"
+  			   get-method="isFrequentRecipient"
+           set-method="setFrequentRecipient">
+
+      <sql name="frequent" type="char[01]"/>
+      <bind-xml name="frequent" node="element"/>
+    </field>
+
+  </class>
+
+</mapping>

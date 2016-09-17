@@ -1,0 +1,33 @@
+.formHead{
+	padding:15px;
+	padding-bottom: 0px;
+	font-weight: bold;
+	font-size: 14px;
+	color :#008DDF;
+}
+.formBody{
+	padding-left :15px;
+	font-size: 12px;
+	height: 30px; 
+}
+
+input[type="text"].bpm_import_text{
+	padding: 4px 16px;
+}
+
+input[type="file"].bpm_import_file{
+	height: 26px;
+}
+
+.table-bpm-import {
+    padding: 35px 20px 20px 70px;
+    width: 700px;
+}
+
+.warn-inline{
+	color: red;
+}
+
+.empty_space{
+	padding: 10px;
+}

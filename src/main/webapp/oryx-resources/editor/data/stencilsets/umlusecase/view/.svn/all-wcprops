@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view
+END
+edge.include.svg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/edge.include.svg
+END
+node.diagram.svg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/node.diagram.svg
+END
+node.note.svg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/node.note.svg
+END
+edge.extend.svg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/edge.extend.svg
+END
+node.actor.human.noEllipse.svg
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/node.actor.human.noEllipse.svg
+END
+node.actor.svg
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/node.actor.svg
+END
+edge.unnavigable_directed_association.svg
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/edge.unnavigable_directed_association.svg
+END
+node.actor.human.svg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/node.actor.human.svg
+END
+node.system.svg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/node.system.svg
+END
+node.useCase.extended.svg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/node.useCase.extended.svg
+END
+node.useCase.svg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/node.useCase.svg
+END
+edge.annotation.svg
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/edge.annotation.svg
+END
+edge.generalization.svg
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/edge.generalization.svg
+END
+edge.association.svg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/edge.association.svg
+END
+edge.directed_association.svg
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlusecase/view/edge.directed_association.svg
+END

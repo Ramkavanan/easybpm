@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2879/trunk/editor/data/stencilsets/epc/view
+END
+node.and.svg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/node.and.svg
+END
+node.position.svg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/node.position.svg
+END
+node.organization.svg
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/node.organization.svg
+END
+node.diagram.svg
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/node.diagram.svg
+END
+node.system.svg
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/node.system.svg
+END
+node.function.svg
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/node.function.svg
+END
+connection.relation.svg
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2879/trunk/editor/data/stencilsets/epc/view/connection.relation.svg
+END
+node.text.note.svg
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/node.text.note.svg
+END
+node.xor.svg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/node.xor.svg
+END
+node.data.svg
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/node.data.svg
+END
+node.or.svg
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/node.or.svg
+END
+node.pInterface.svg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2449/trunk/editor/data/stencilsets/epc/view/node.pInterface.svg
+END
+connection.flow.svg
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/connection.flow.svg
+END
+node.event.svg
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/epc/view/node.event.svg
+END

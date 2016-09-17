@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+  <!-- Security related configuration -->
+  <security>
+    <!-- The factory class for producing secure socket instances -->
+    <secure-socket-factory>javax.net.ssl.SSLSocketFactory</secure-socket-factory>
+  </security>
+
+  <!-- Mail Transport Agent Configuration
+       authenticated (true|false): MTA requires authentication for transporting messages
+       secure (true|false): Use a secure connection to connect to the MTA
+
+       protocol (smtp): protocol of the MTA (only SMTP supported by JavaMail Reference impl.)
+       address (IP/Hostname): Address of the MTA host
+       port (int): The port of the MTA host (-1 equals 25, the default for SMTP)
+                   For using SMTPS (SMTP over SSL) the port should be 465.
+  -->
+  <!-- <mta name="Default MTA" authenticated="true" secure="true">
+    <protocol>smtp</protocol>
+    <address>smtp.gmail.com</address>
+    <port>465</port>
+  </mta> -->
+
+  <!-- Postoffice Configuration (Collection)
+       name: Name of the post office, used also as identifier if multiple
+             postoffices are configured.
+       default (true|false): This will be the default post office if multiple
+                             are configured. Naturally only one of these should
+                             be tagged as default.
+       type (plain|mixed): This determines the type of the post office. Note
+                           that "mixed" is the default, which should work for most
+                           known imapd's. Note that UW imapd requires type "plain".
+       secure (true|false): Use a secure connection to connect to the postoffice.
+
+       protocol (imap): protocol of the postoffice (only imap supported atm.)
+       address (IP/Hostname): Address of the postoffice host
+       port (int): The port of the postoffice host (-1 equals 143, the default for IMAP).
+                   For using IMAPS (IMAP over SSL) the port should be 993.
+       rootfolder: This should be used to configure a standard prefix for the mail folder.
+                   Basically this is useful for UW imapd's, where the store is actually
+                   equal to the users home directory. When left empty, the root folder will
+                   automatically be the default folder of the store. In case the folder does
+                   not exist, the root folder will be automatically set to the default folder
+                   of the store.
+       reply-to-domain: The domain(/host) to be used for generating a first reply-to address
+                        for the user configuration (username@reply-to-domain).
+                        When left empty, the postoffice address will be used.
+  -->
+  <!-- <postoffice name="Default PostOffice" default="true" type="mixed" secure="true">
+    <protocol>imap</protocol>
+    <address>imap.gmail.com</address>
+    <port>993</port>
+    <rootfolder>INBOX</rootfolder>
+    <replyto-domain>gmail.com</replyto-domain>
+  </postoffice> -->
+
+  <!-- Internationalization related configuration -->
+  <internationalization>
+    <!-- The system language (will be used for system messages and logging). -->
+    <system-language>en</system-language>
+    <!-- The default view language -->
+    <default-view-language>en</default-view-language>
+    <!-- A list of available view languages -->
+    <view-languages>de,en,es,it,fr</view-languages>
+  </internationalization>
+
+  <!-- Administration configuration
+       Note that this is unused at the moment; it has been
+       added for future extension.
+  -->
+  <administration enabled="false">
+    <admins></admins>
+  </administration>
+
+
+  <!-- postofficeallowoverride (true|false): If multiple postoffices are configured
+                                             true will allow the user to select between them
+                                             when  logging in.
+  -->
+  <postofficeallowoverride>false</postofficeallowoverride>
+
+  <!-- auto-create-account (true|false): This will cause jwma to automatically initialise
+                                         user data when first logging in. An existing IMAP
+                                         account is required.
+                                         If set to false, jwma will redirect to the first time
+                                         view, which allows you to hook in a custom procedure
+                                         (including an IMAP account setup webapp).
+  -->
+  <auto-create-account>true</auto-create-account>
+
+  <!-- default-message-processor: This configures the default message processor used for
+                                  plaintext messages. This has to be defined in the jtextproc
+                                  configuration (default: cleanmessages).
+  -->
+  <default-message-processor>cleanmessage</default-message-processor>
+
+  <!-- preferencespersistence-plugin: Configures the plugin to be used for persisting user
+                                      preferences.
+  -->
+  <preferencepersistence-plugin>dtw.webmail.plugin.std.CastorXMLPreferencesPersistence</preferencepersistence-plugin>
+
+  <!-- contactmanagement-plugin: Configures the plugin to be used for persisting user
+                                 contacts.
+  -->
+  <contactmanagement-plugin>dtw.webmail.plugin.std.CastorXMLContactManagement</contactmanagement-plugin>
+
+</configuration>

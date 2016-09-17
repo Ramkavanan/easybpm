@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MenuConfig>
+	<Displayers>
+		<Displayer name="Velocity"
+			type="net.sf.navigator.displayer.VelocityMenuDisplayer" />
+	</Displayers>
+	<Menus>
+		<Menu name="MainMenu" title="mainMenu.title" page="/mainMenu" roles="ROLE_ADMIN,ROLE_USER" />
+		<Menu name="UserMenu" title="menu.user" description="User Menu" page="/userform" roles="ROLE_ADMIN,ROLE_USER" />
+		<Menu name="AdminMenu" title="menu.admin" description="Admin Menu" roles="ROLE_ADMIN" page="/admin/users">
+			<Item name="ViewUsers" title="menu.admin.users" page="/admin/users" />
+			<Item name="ViewRoles" title="menu.admin.roles" page="/admin/roles" />
+			<Item name="ViewGroups" title="menu.admin.groups" page="/admin/groups" />
+			<Item name="ViewDepartments" title="menu.admin.departments" page="/admin/departments" />
+			<Item name="ActiveUsers" title="mainMenu.activeUsers" page="/admin/activeUsers" />
+			<Item name="ReloadContext" title="menu.admin.reload" page="/admin/reload" />
+			<Item name="FileUpload" title="menu.selectFile" page="/fileupload" />
+			<Item name="AddNewGroup" title="newgroup.title" page="/admin/newGroup" />
+			<Item name="AddNewRole" title="newrole.title" page="/admin/newRole" />
+			<Item name="AddNewDepartment" title="menu.department" page="/admin/departmentForm" />
+		</Menu>
+		<Menu name="Form" title="form.title" description="form.title" page="/admin/users" roles="ROLE_ADMIN,ROLE_USER" >
+			<Item name="FormDesigner" title="formdesigner.title" description="Form Designer" page="/form" />
+			<Item name="FormList" title="formlist.title" description="Form List" page="/form/formList" />
+		</Menu>
+		<Menu name="Task" title="task.title" description="task.title"  page="/admin/users" roles="ROLE_ADMIN,ROLE_USER" >
+			<Item name="MyBuckets" title="task.myBuckets" page="/manageTasks/mybucket" />
+			<Item name="MyInvolvements" title="task.myInvolvements" page="/manageTasks/myinvolvements" />
+			<Item name="WaitingList" title="task.waitingList" page="/manageTasks/waitinglist" />
+		</Menu>
+		
+		<Menu name="Process" title="process.title" description="process.title"  page="/admin/users" roles="ROLE_ADMIN,ROLE_USER" >
+			<Item name="MyInstances" title="process.myInstances" page="/myInstances" />
+			<Item name="ProcessDefinitions" title="process.processDefinitions" page="/showProcess/processDefinitions" />
+			<Item name="Import" title="process.import" page="/showProcess/import" />
+			<Item name="CreateProcess" title="process.createprocess" page="/processEditor" />
+		</Menu>
+		
+		<Menu name="Manage" title="manage.title" description="manage.title"  page="/admin/users" roles="ROLE_ADMIN,ROLE_USER" >
+			<Item name="CreateProcess" title="manage.createProcess" page="/createProcess" />
+			<Item name="ListProcess" title="manage.listProcess" page="/manageProcess/listProcess" />
+			<Item name="MonitorProcesses" title="manage.monitorProcesses" page="/manageProcess/monitorProcesses" />
+		</Menu>
+		
+		<Menu name="Logout" title="user.logout" page="/logout"
+			roles="ROLE_ADMIN,ROLE_USER" />
+	</Menus>
+</MenuConfig>

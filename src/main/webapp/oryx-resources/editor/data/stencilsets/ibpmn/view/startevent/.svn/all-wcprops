@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/2457/trunk/editor/data/stencilsets/ibpmn/view/startevent
+END
+node.event.interaction.start.svg
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1543/trunk/editor/data/stencilsets/ibpmn/view/startevent/node.event.interaction.start.svg
+END
+node.event.timer.start.svg
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2457/trunk/editor/data/stencilsets/ibpmn/view/startevent/node.event.timer.start.svg
+END
+node.event.start.svg
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2457/trunk/editor/data/stencilsets/ibpmn/view/startevent/node.event.start.svg
+END

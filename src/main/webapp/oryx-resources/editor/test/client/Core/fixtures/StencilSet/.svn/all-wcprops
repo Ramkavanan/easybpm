@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3930/trunk/editor/test/client/Core/fixtures/StencilSet
+END
+testStencilSetWithoutRoot.js
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1825/trunk/editor/test/client/Core/fixtures/StencilSet/testStencilSetWithoutRoot.js
+END
+testCorruptedStencilSet.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1825/trunk/editor/test/client/Core/fixtures/StencilSet/testCorruptedStencilSet.js
+END
+testStencilSetExtensionAddProps.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3930/trunk/editor/test/client/Core/fixtures/StencilSet/testStencilSetExtensionAddProps.js
+END
+testStencilSetExtension.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1838/trunk/editor/test/client/Core/fixtures/StencilSet/testStencilSetExtension.js
+END
+testStencilSetExtensionRemoveProps.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1840/trunk/editor/test/client/Core/fixtures/StencilSet/testStencilSetExtensionRemoveProps.js
+END
+testStencilSetExtensionRemoveStencils.js
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1840/trunk/editor/test/client/Core/fixtures/StencilSet/testStencilSetExtensionRemoveStencils.js
+END
+testStencilSet.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1840/trunk/editor/test/client/Core/fixtures/StencilSet/testStencilSet.js
+END

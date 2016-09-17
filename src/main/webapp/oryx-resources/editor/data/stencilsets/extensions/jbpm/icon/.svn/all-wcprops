@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/1978/trunk/editor/data/stencilsets/extensions/jbpm/icon
+END
+empty.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1978/trunk/editor/data/stencilsets/extensions/jbpm/icon/empty.png
+END
+sql.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1978/trunk/editor/data/stencilsets/extensions/jbpm/icon/sql.png
+END
+java.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1978/trunk/editor/data/stencilsets/extensions/jbpm/icon/java.png
+END
+hql.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/1978/trunk/editor/data/stencilsets/extensions/jbpm/icon/hql.png
+END
+wait.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1978/trunk/editor/data/stencilsets/extensions/jbpm/icon/wait.png
+END

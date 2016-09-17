@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3612/trunk/editor/test/server/de/hpi/cpn
+END
+JSON3.json
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3385/trunk/editor/test/server/de/hpi/cpn/JSON3.json
+END
+ArcRelationsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3612/trunk/editor/test/server/de/hpi/cpn/ArcRelationsTest.java
+END
+ImportTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3612/trunk/editor/test/server/de/hpi/cpn/ImportTest.java
+END
+cpn10.cpn
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3385/trunk/editor/test/server/de/hpi/cpn/cpn10.cpn
+END
+ExportTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3612/trunk/editor/test/server/de/hpi/cpn/ExportTest.java
+END

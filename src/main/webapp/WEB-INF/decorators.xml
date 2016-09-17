@@ -1,0 +1,40 @@
+<decorators defaultdir="/decorators">
+    <excludes>
+        <pattern>/40*.jsp</pattern>
+        <pattern>/*ajax=true*</pattern>
+        <pattern>/struts/*</pattern>
+        <pattern>/resources/*</pattern>
+    </excludes> 
+    <decorator name="main" page="default.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+    
+    <decorator name="target" page="target.jsp">
+        <pattern>/bpm/*</pattern>
+    </decorator>
+	
+	<decorator name="target" page="target.jsp">
+        <pattern>/cometd/*</pattern>
+    </decorator>
+    
+	<!-- show the task form in new tab -->
+	<decorator name="task" page="taskDefault.jsp">
+        <pattern>/showTaskFormDetail</pattern>
+        <pattern>/showTaskFormDetailForReader</pattern>
+        <pattern>/printPreviewDetail</pattern>
+    </decorator>
+    
+    <decorator name="loginDefault" page="loginDefault.jsp">
+        <pattern>/login</pattern>
+        <pattern>/loginAction</pattern>
+    </decorator>
+    
+    <decorator name="formDefault" page="formDefault.jsp">
+        <pattern>/images/html/bpm/us/*</pattern>
+    </decorator>
+    
+    <decorator name="formDefault" page="formDefault.jsp">
+        <pattern>/images/forms/*</pattern>
+    </decorator>
+    
+</decorators>

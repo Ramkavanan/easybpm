@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons
+END
+edge.synchronousAnswer.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/edge.synchronousAnswer.png
+END
+node.stateInvariant.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/node.stateInvariant.png
+END
+node.action.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/node.action.png
+END
+edge.synchronousMessage.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/edge.synchronousMessage.png
+END
+Placeholder.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/Placeholder.png
+END
+edge.asynchronousMessage.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/edge.asynchronousMessage.png
+END
+node.objectActor.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/node.objectActor.png
+END
+diagram.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/diagram.png
+END
+node.humanActor.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/node.humanActor.png
+END
+node.activeline.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/node.activeline.png
+END
+node.lostOrFoundMessage.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/node.lostOrFoundMessage.png
+END
+node.terminator.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/node.terminator.png
+END
+frame.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/frame.png
+END
+node.actor.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlsequence/icons/node.actor.png
+END

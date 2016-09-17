@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/icons/ControlFlow
+END
+edge.controlFlow.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/icons/ControlFlow/edge.controlFlow.png
+END
+node.flowFinalNode.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/icons/ControlFlow/node.flowFinalNode.png
+END
+node.and.horizontal.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/icons/ControlFlow/node.and.horizontal.png
+END
+node.and.vertical.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/icons/ControlFlow/node.and.vertical.png
+END
+node.activityFinalNode.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/icons/ControlFlow/node.activityFinalNode.png
+END
+node.initialNode.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/icons/ControlFlow/node.initialNode.png
+END
+node.or.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3745/trunk/editor/data/stencilsets/umlactivity/icons/ControlFlow/node.or.png
+END

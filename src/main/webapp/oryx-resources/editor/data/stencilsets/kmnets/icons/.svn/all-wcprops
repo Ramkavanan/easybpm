@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/kmnets/icons
+END
+edge.arc.png
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/kmnets/icons/edge.arc.png
+END
+node.diagram.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/kmnets/icons/node.diagram.png
+END
+node.class.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/kmnets/icons/node.class.png
+END
+node.rule.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/kmnets/icons/node.rule.png
+END

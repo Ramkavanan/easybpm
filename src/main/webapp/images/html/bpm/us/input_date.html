@@ -1,0 +1,75 @@
+<script>
+jQuery("#date_button").click(function () {
+	var bValid = true;
+	var _no = jQuery("#e_id").val();
+	
+	if (bValid) {
+		var label = jQuery("#title").val().trim();
+		if(label != ""){
+			var name = label.toLowerCase().replace(/[" "]/g,"");
+			$('#name').val(name);
+			jQuery("#properties_error").hide();
+			saveInputPanel( _no ) ; //in rbl_base.js
+			jQuery("#propertyTab-content").hide();
+			propertiesMsgBox("Success","Date field properties updated.","success","title");
+		}else{
+			jQuery("#properties_error").show();
+			var	content = "Label should not be empty.";
+			propertiesMsgBox("Error",content,"error","title");
+		}
+	}
+});
+ 
+jQuery("#reset_date_button").click(function () {
+	var _id=jQuery("#e_id").val() ;
+	showControlPanel("f_" + _id, "create");
+});
+
+</script>
+<input type="hidden" name="regexp" id="regexp"/>
+<input type="hidden" name="type_html" id="type_html" value="DATE" />
+<input type="hidden" name="e_id" id="e_id" readonly="O" class="text  ui-corner-all" value="test" />
+
+<div class="width-per-100">
+	<div id="text_row1" class="width-per-100 min-height55">
+		<div>
+			<div class="floatleft"><label for="name" class="popUpFontStyle">Name</label></div>
+			<div class="floatleft pad-R10" ><input type="text" name="name" id="name" class="text  ui-corner-all width140" readonly="0"/></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="title" class="popUpFontStyle">Label</label></div>
+			<div class="floatleft pad-R10" ><input type="text" name="title" id="title" class="text  ui-corner-all width140"/></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="mask" class="popUpFontStyle">Date Format</label></div>
+			<div class="floatleft pad-R10" style="padding-right:15px;">
+				<select name="mask" id="mask" class="fCmb" style="width:150px;">
+  	  					<option value="dd-MM-yyyy hh:mm">dd-MM-yyyy hh:mm</option>
+  	  	        </select>
+  	  	    </div>
+		</div>
+		<div id="isRequired" class="displayBlock">
+			<div class="floatleft"><label for="required" class="popUpFontStyle">Required</label></div>
+			<div class="floatleft pad-R10"><input type="checkbox" name="required" id="required" class="radio  ui-corner-all width140" onclick="generateReadOnly()"/></div>
+		</div>
+	</div>
+	<div id="text_row2" class="width-per-100 min-height55">
+		<div>
+			<div class="floatleft"><label for="size" class="popUpFontStyle">Size</label></div>
+			<div class="floatleft pad-R10 pad-L10"><input type="text" name="size" id="size" class="text  ui-corner-all width140" onkeyup="checkIsNumber('size','Size')"/></div>
+		</div>
+		<div>
+			<div class="floatleft"><label for="help_text" class="popUpFontStyle">Help</label></div>
+			<div class="floatleft pad-R10  pad-L5"><textarea  name="help_text" id="help_text" cols="50" rows="1" class="text  ui-corner-all width140"/></div>
+		</div>
+		<!-- <div>
+			<div class="floatleft"><label for="maxlength" class="popUpFontStyle">Max Length</label></div>
+			<div><input type="text" name="maxlength" id="maxlength" class="text  ui-corner-all width120" onkeyup="checkIsNumber('maxlength','Max Length')"/></div>
+		</div>		 -->
+		<div>
+			<div style="float:right;margin-right:20px;"><input type="button" id="reset_date_button" value="Reset" class="btn clearButton btn-primary searchButtonSize mar-L10 padding0 line-height0"></div>
+			<div style="float:right;margin-right:20px;"><input type="button" id="date_button" value="Apply" class="btn btn-primary searchButtonSize mar-L10 padding0 line-height0"></div>
+		</div>
+	</div>
+</div>
+	

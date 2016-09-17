@@ -1,0 +1,43 @@
+<script>
+jQuery("#c_button").click(function () {
+	var bValid = true;
+	
+	if (bValid) {
+		saveColPanel( jQuery("#c_id").val() ) ; //in rbl_col.js
+		jQuery("#propertyTab-content").hide();
+		propertiesMsgBox("Success","Column properties updated.","success","");
+	}
+});
+
+
+jQuery("#c_button_reset").click(function () {
+	var col_id=jQuery("#c_id").val();
+	showColPanel(col_id);
+});
+
+</script>
+<input type="hidden" name="c_id" id="c_id"/>
+<form>
+	<div class="width-per-100 pad-T30">
+		<div id="c_row1">
+			<div>
+				<div class="floatleft"><label for="c_name" class="popUpFontStyle">Column name</label></div>
+				<div class="floatleft pad-R10"><input type="text" name="c_name" id="c_name" class="text  ui-corner-all width140"/></div>
+			</div>
+			<div>
+				<div class="floatleft"><label for="c_width" class="popUpFontStyle">Width</label></div>
+				<div class="floatleft pad-R10"><input type="text" name="c_width" id="c_width" size="4" maxlength="8" class="text  ui-corner-all width140"/></div>
+			</div>
+			<div>
+				<div class="floatleft"><label for="c_height" class="popUpFontStyle">Height</label></div>
+				<div class="floatleft pad-R10">
+					 <input type="text" name="c_height" id="c_height" size="4" maxlength="8" class="text  ui-corner-all width140"/>
+  	  	    	</div>
+			</div>
+			<div>
+				<div class="floatRight mar-T2 mar-R20"><input type="button" id="c_button_reset" value="Reset" class="btn btn-primary clearButton mar-L10 searchButtonSize padding0 line-height0"/></div>
+				<div class="floatRight mar-T2 mar-R20"><input type="button" id="c_button" value="Apply" class="btn btn-primary searchButtonSize mar-L10 padding0 line-height0"/></div>
+			</div>
+		</div>
+	</div>
+</form>

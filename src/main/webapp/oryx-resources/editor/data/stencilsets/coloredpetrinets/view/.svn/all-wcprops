@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3385/trunk/editor/data/stencilsets/coloredpetrinets/view
+END
+node.mark.svg
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3385/trunk/editor/data/stencilsets/coloredpetrinets/view/node.mark.svg
+END
+node.transition.svg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3385/trunk/editor/data/stencilsets/coloredpetrinets/view/node.transition.svg
+END
+node.transition.emptyV.svg
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3385/trunk/editor/data/stencilsets/coloredpetrinets/view/node.transition.emptyV.svg
+END
+node.token.svg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3385/trunk/editor/data/stencilsets/coloredpetrinets/view/node.token.svg
+END
+connection.flow.svg
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3385/trunk/editor/data/stencilsets/coloredpetrinets/view/connection.flow.svg
+END
+node.place.svg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3385/trunk/editor/data/stencilsets/coloredpetrinets/view/node.place.svg
+END
+node.text.svg
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3385/trunk/editor/data/stencilsets/coloredpetrinets/view/node.text.svg
+END
+connection.annotation.svg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3385/trunk/editor/data/stencilsets/coloredpetrinets/view/connection.annotation.svg
+END
+node.diagram.svg
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3385/trunk/editor/data/stencilsets/coloredpetrinets/view/node.diagram.svg
+END
+node.transition.empty.svg
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3385/trunk/editor/data/stencilsets/coloredpetrinets/view/node.transition.empty.svg
+END

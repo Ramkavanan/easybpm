@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/icons
+END
+edge.bidirectionalconnection.png
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/icons/edge.bidirectionalconnection.png
+END
+node.channel.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.channel.png
+END
+node.structurevariance.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.structurevariance.png
+END
+node.requestsymbol-l2r.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1901/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.requestsymbol-l2r.png
+END
+node.requestsymbol-r2l.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.requestsymbol-r2l.png
+END
+edge.readaccess.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/icons/edge.readaccess.png
+END
+node.textannotation.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.textannotation.png
+END
+edge.protocolboundary.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/icons/edge.protocolboundary.png
+END
+node.textlabel.png
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.textlabel.png
+END
+edge.modifyingaccess.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/icons/edge.modifyingaccess.png
+END
+edge.writeaccess.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/icons/edge.writeaccess.png
+END
+node.agent.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.agent.png
+END
+edge.undirectedassociation.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/icons/edge.undirectedassociation.png
+END
+node.requestsymbol-b2t.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.requestsymbol-b2t.png
+END
+node.requestsymbol-t2b.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1906/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.requestsymbol-t2b.png
+END
+node.diagram.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.diagram.png
+END
+node.human-agent.png
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.human-agent.png
+END
+node.storage.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/fmcblockdiagram/icons/node.storage.png
+END

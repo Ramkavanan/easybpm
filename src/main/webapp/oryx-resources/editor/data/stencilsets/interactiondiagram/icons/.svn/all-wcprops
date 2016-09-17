@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/2070/trunk/editor/data/stencilsets/interactiondiagram/icons
+END
+edge.interaction.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2070/trunk/editor/data/stencilsets/interactiondiagram/icons/edge.interaction.png
+END
+node.textannotation.png
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/2070/trunk/editor/data/stencilsets/interactiondiagram/icons/node.textannotation.png
+END
+edge.undirectedassociation.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2070/trunk/editor/data/stencilsets/interactiondiagram/icons/edge.undirectedassociation.png
+END
+node.system-role.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2070/trunk/editor/data/stencilsets/interactiondiagram/icons/node.system-role.png
+END
+node.diagram.png
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/2070/trunk/editor/data/stencilsets/interactiondiagram/icons/node.diagram.png
+END
+node.human-role.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2070/trunk/editor/data/stencilsets/interactiondiagram/icons/node.human-role.png
+END

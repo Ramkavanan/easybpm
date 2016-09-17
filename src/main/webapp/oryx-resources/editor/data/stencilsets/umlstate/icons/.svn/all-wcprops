@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons
+END
+node.state.png
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.state.png
+END
+diagram.png
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/diagram.png
+END
+node.event.incoming.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.event.incoming.png
+END
+node.exitPoint.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.exitPoint.png
+END
+node.terminator.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.terminator.png
+END
+node.parallelArea.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.parallelArea.png
+END
+edge.controlFlow.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/edge.controlFlow.png
+END
+node.parallelAreaContainer.png
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.parallelAreaContainer.png
+END
+node.junction.png
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.junction.png
+END
+node.choice.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.choice.png
+END
+node.initialState.png
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.initialState.png
+END
+node.finalState.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.finalState.png
+END
+node.shallowHistory.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.shallowHistory.png
+END
+node.deepHistory.png
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.deepHistory.png
+END
+node.fork.png
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.fork.png
+END
+node.compositeState.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.compositeState.png
+END
+node.seperator.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.seperator.png
+END
+node.event.outgoing.png
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.event.outgoing.png
+END
+node.entryPoint.png
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.entryPoint.png
+END
+node.action.png
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3930/trunk/editor/data/stencilsets/umlstate/icons/node.action.png
+END

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<jwmapreferences defaultmailidentity="0" uid="to-be-assigned">
+    <useridentity>Default</useridentity>
+    <firstname>Firstname</firstname>
+    <lastname>Lastname</lastname>
+    <lastlogin>Never.</lastlogin>
+    <language>en</language>
+    <quotechar>&gt;</quotechar>
+    <autoquote>false</autoquote>
+    <rootfolder>INBOX</rootfolder>
+    <draftfolder>Draft</draftfolder>
+    <trashfolder>Trash</trashfolder>
+    <sentmailarchive>sent-mail</sentmailarchive>
+    <readmailarchive>read-mail</readmailarchive>
+    <automoveread>false</automoveread>
+    <autoarchivesent>true</autoarchivesent>
+    <autoempty>false</autoempty>
+    <msgprocessor></msgprocessor>
+    <dateformat>d/M/yy</dateformat>
+    <expert>false</expert>
+    <style></style>
+    <inline>true</inline>
+    <messagesort>11</messagesort>
+</jwmapreferences>

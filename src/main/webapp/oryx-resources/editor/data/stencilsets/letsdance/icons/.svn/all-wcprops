@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/icons
+END
+node.complexinteraction.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/icons/node.complexinteraction.png
+END
+edge.inhibits.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/icons/edge.inhibits.png
+END
+edge.precedes.png
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/icons/edge.precedes.png
+END
+diagram.png
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/icons/diagram.png
+END
+edge.weakprecedes.png
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/icons/edge.weakprecedes.png
+END
+node.elementaryinteraction.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/letsdance/icons/node.elementaryinteraction.png
+END

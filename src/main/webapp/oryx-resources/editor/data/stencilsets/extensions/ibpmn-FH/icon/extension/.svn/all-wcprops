@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2463/trunk/editor/data/stencilsets/extensions/ibpmn-FH/icon/extension
+END
+new_errorevent.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2444/trunk/editor/data/stencilsets/extensions/ibpmn-FH/icon/extension/new_errorevent.png
+END
+new_ni_end_event.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2463/trunk/editor/data/stencilsets/extensions/ibpmn-FH/icon/extension/new_ni_end_event.png
+END
+new_handler.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/2444/trunk/editor/data/stencilsets/extensions/ibpmn-FH/icon/extension/new_handler.png
+END
+new_compensationevent.png
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/2444/trunk/editor/data/stencilsets/extensions/ibpmn-FH/icon/extension/new_compensationevent.png
+END
+new_task.png
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2444/trunk/editor/data/stencilsets/extensions/ibpmn-FH/icon/extension/new_task.png
+END
+new_ni_start.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/2463/trunk/editor/data/stencilsets/extensions/ibpmn-FH/icon/extension/new_ni_start.png
+END
+.directory
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2444/trunk/editor/data/stencilsets/extensions/ibpmn-FH/icon/extension/.directory
+END
+new_terminateevent.png
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2444/trunk/editor/data/stencilsets/extensions/ibpmn-FH/icon/extension/new_terminateevent.png
+END

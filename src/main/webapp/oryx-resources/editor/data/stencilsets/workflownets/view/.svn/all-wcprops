@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/workflownets/view
+END
+diagram.svg
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/workflownets/view/diagram.svg
+END
+condition.svg
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/workflownets/view/condition.svg
+END
+inputcondition.svg
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/workflownets/view/inputcondition.svg
+END
+outputcondition.svg
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/workflownets/view/outputcondition.svg
+END
+controlflow.svg
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/workflownets/view/controlflow.svg
+END
+activity.svg
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/1445/trunk/editor/data/stencilsets/workflownets/view/activity.svg
+END
